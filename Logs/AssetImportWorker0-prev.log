@@ -1,0 +1,1732 @@
+Using pre-set license
+Built from '2020.2/staging' branch; Version is '2020.2.3f1 (8ff31bc5bf5b) revision 9433883'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19043.1237; Version 2009; 64bit' Language: 'en' Physical Memory: 16204 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+E:\My Games\Hub\Editor\2020.2.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/My Games/Unity Projects/Guerilla Ninja
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52917
+Successfully changed project path to: E:/My Games/Unity Projects/Guerilla Ninja
+E:/My Games/Unity Projects/Guerilla Ninja
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 76.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.3f1 (8ff31bc5bf5b)
+[Subsystems] Discovering subsystems at path E:/My Games/Hub/Editor/2020.2.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/My Games/Unity Projects/Guerilla Ninja/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics (ID=0x9bc4)
+    Vendor:   
+    VRAM:     8102 MB
+    Driver:   26.20.100.7642
+Initialize mono
+Mono path[0] = 'E:/My Games/Hub/Editor/2020.2.3f1/Editor/Data/Managed'
+Mono path[1] = 'E:/My Games/Hub/Editor/2020.2.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'E:/My Games/Hub/Editor/2020.2.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56808
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/My Games/Hub/Editor/2020.2.3f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: E:/My Games/Hub/Editor/2020.2.3f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: E:/My Games/Hub/Editor/2020.2.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: E:/My Games/Hub/Editor/2020.2.3f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.001898 seconds.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 42.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.248 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001484 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 40.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.945 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1933 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.6 MB.
+System memory in use after: 91.7 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 2366.
+Total: 2.226000 ms (FindLiveObjects: 0.179500 ms CreateObjectMapping: 0.080400 ms MarkObjects: 1.902900 ms  DeleteObjects: 0.062100 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Sprites/Misc Items.png
+  artifactKey: Guid(d58f56c8ea8c7ee4eb45760b4514b526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Misc Items.png using Guid(d58f56c8ea8c7ee4eb45760b4514b526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beb2e8f2f281357175414fe9cb24ed5b') in 0.303636 seconds
+  Import took 0.335469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001078 seconds.
+  path: Assets/Sprites/Vehicles and misc.png
+  artifactKey: Guid(5ae76eca823aac34ab68c7d9b0691714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Vehicles and misc.png using Guid(5ae76eca823aac34ab68c7d9b0691714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60fefc2a6ebfba1a9af466c4f166f0d2') in 0.058282 seconds
+  Import took 0.069290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001071 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aabd38d00a2d1980a060aa85253402ed') in 0.048170 seconds
+  Import took 0.059874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001074 seconds.
+  path: Assets/Sprites/Aircrafts.png
+  artifactKey: Guid(3195bfafc5de51d48994208becfcc904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Aircrafts.png using Guid(3195bfafc5de51d48994208becfcc904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bdc4b9253f765c4f93bf50b33f5d0d4') in 0.062308 seconds
+  Import took 0.073342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.022902 seconds.
+  path: Assets/Sprites/Aircrafts.png
+  artifactKey: Guid(3195bfafc5de51d48994208becfcc904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Aircrafts.png using Guid(3195bfafc5de51d48994208becfcc904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f43721d309260e4f91a831d2dcf83d3') in 0.053671 seconds
+  Import took 0.066123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.635479 seconds.
+  path: Assets/Sprites/Aircrafts.png
+  artifactKey: Guid(3195bfafc5de51d48994208becfcc904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Aircrafts.png using Guid(3195bfafc5de51d48994208becfcc904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01f4b4c5bfafc827098737349e507cc9') in 0.024849 seconds
+  Import took 0.029153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011284 seconds.
+  path: Assets/Sprites/Aircrafts.png
+  artifactKey: Guid(3195bfafc5de51d48994208becfcc904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Aircrafts.png using Guid(3195bfafc5de51d48994208becfcc904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01f4b4c5bfafc827098737349e507cc9') in 0.022667 seconds
+  Import took 0.027396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.126515 seconds.
+  path: Assets/Sprites/Aircrafts.png
+  artifactKey: Guid(3195bfafc5de51d48994208becfcc904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Aircrafts.png using Guid(3195bfafc5de51d48994208becfcc904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecbfbcf62f77dc541700c9fdc30fc78f') in 0.041317 seconds
+  Import took 0.052943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.055039 seconds.
+  path: Assets/Sprites/Aircrafts.png
+  artifactKey: Guid(3195bfafc5de51d48994208becfcc904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Aircrafts.png using Guid(3195bfafc5de51d48994208becfcc904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecbfbcf62f77dc541700c9fdc30fc78f') in 0.015975 seconds
+  Import took 0.019934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.912791 seconds.
+  path: Assets/Sprites/Aircrafts.png
+  artifactKey: Guid(3195bfafc5de51d48994208becfcc904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Aircrafts.png using Guid(3195bfafc5de51d48994208becfcc904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6dfcb9e7c9e3723d810a081525a34e3') in 0.046341 seconds
+  Import took 0.069617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.745162 seconds.
+  path: Assets/Sprites/Aircrafts.png
+  artifactKey: Guid(3195bfafc5de51d48994208becfcc904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Aircrafts.png using Guid(3195bfafc5de51d48994208becfcc904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6128681eab75c52613e2a1ca72dd7f92') in 0.045680 seconds
+  Import took 0.050414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.012899 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7d440de710eab1ea529619eefd219a9') in 0.012606 seconds
+  Import took 0.016205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003093 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7d440de710eab1ea529619eefd219a9') in 0.014933 seconds
+  Import took 0.018714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.680035 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e24ecb3fb17f39a5d4fb91ad5c7e199') in 0.017937 seconds
+  Import took 0.022266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032305 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e24ecb3fb17f39a5d4fb91ad5c7e199') in 0.012165 seconds
+  Import took 0.016059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.972293 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cedfcdf23c3983213051bb6844eb3408') in 0.095089 seconds
+  Import took 0.098775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.471873 seconds.
+  path: Assets/Sprites/Misc Items.png
+  artifactKey: Guid(d58f56c8ea8c7ee4eb45760b4514b526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Misc Items.png using Guid(d58f56c8ea8c7ee4eb45760b4514b526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f4585ede7a8e4d71ff4c266b242ec2c') in 0.046916 seconds
+  Import took 0.056185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.056640 seconds.
+  path: Assets/Sprites/Misc Items.png
+  artifactKey: Guid(d58f56c8ea8c7ee4eb45760b4514b526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Misc Items.png using Guid(d58f56c8ea8c7ee4eb45760b4514b526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b176e7c174dc34213f47ae4b3a4bd73') in 0.014039 seconds
+  Import took 0.018326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043923 seconds.
+  path: Assets/Sprites/Misc Items.png
+  artifactKey: Guid(d58f56c8ea8c7ee4eb45760b4514b526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Misc Items.png using Guid(d58f56c8ea8c7ee4eb45760b4514b526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b176e7c174dc34213f47ae4b3a4bd73') in 0.009085 seconds
+  Import took 0.013297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.853110 seconds.
+  path: Assets/Sprites/Misc Items.png
+  artifactKey: Guid(d58f56c8ea8c7ee4eb45760b4514b526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Misc Items.png using Guid(d58f56c8ea8c7ee4eb45760b4514b526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38c0cae6e7bd717bf86a74bb2e68571c') in 0.029250 seconds
+  Import took 0.033057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.503935 seconds.
+  path: Assets/Sprites/Vehicles and misc.png
+  artifactKey: Guid(5ae76eca823aac34ab68c7d9b0691714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Vehicles and misc.png using Guid(5ae76eca823aac34ab68c7d9b0691714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96b957688a93a6084f547f20643830a9') in 0.015373 seconds
+  Import took 0.032695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.111573 seconds.
+  path: Assets/Sprites/Vehicles and misc.png
+  artifactKey: Guid(5ae76eca823aac34ab68c7d9b0691714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Vehicles and misc.png using Guid(5ae76eca823aac34ab68c7d9b0691714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3928ede4cade7cfda61efcf77ed2bae2') in 0.070775 seconds
+  Import took 0.073917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1098.190545 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '653ce283d384579a24208b2e4d727c2a') in 0.021519 seconds
+  Import took 0.025911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.085162 seconds.
+  path: Assets/Animations
+  artifactKey: Guid(6da18f75e1abcac41a33fa969d9e02c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations using Guid(6da18f75e1abcac41a33fa969d9e02c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32bf459e3602a4ea7fc7b78cca20940e') in 0.017966 seconds
+  Import took 0.026368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.267671 seconds.
+  path: Assets/SFX
+  artifactKey: Guid(cb7e1e3f17ce31949ac2f7b86974ec63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SFX using Guid(cb7e1e3f17ce31949ac2f7b86974ec63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d83bb1e4da1e1582044a85b337743f1') in 0.018870 seconds
+  Import took 0.025813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.725100 seconds.
+  path: Assets/Voices
+  artifactKey: Guid(c3f7cdf588d7fad45aa80062959a90b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voices using Guid(c3f7cdf588d7fad45aa80062959a90b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2ff861cefea7bed9a4710e17a948acf') in 0.014814 seconds
+  Import took 0.020809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.452688 seconds.
+  path: Assets/Sprites
+  artifactKey: Guid(9011eb83768bfcf46ab70bcb834350d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites using Guid(9011eb83768bfcf46ab70bcb834350d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1b04d7a492778adf5b26a0a14b41d5f') in 0.009307 seconds
+  Import took 0.013116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 113.804568 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3feff5fae10247456117a9ccebeb351d') in 0.025092 seconds
+  Import took 0.029306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002145 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3feff5fae10247456117a9ccebeb351d') in 0.021694 seconds
+  Import took 0.026999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 133.233124 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8695995541de1cdefff1959843877d3f') in 0.073554 seconds
+  Import took 0.078472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.244535 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '617424737de961e174db06b94484de53') in 0.085574 seconds
+  Import took 0.089214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 82.906566 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e9740157f533a649a0767b14e5fa531') in 0.101062 seconds
+  Import took 0.105396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.566699 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4d13952c78dbdea83246e63cc676348') in 0.072210 seconds
+  Import took 0.089667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.034309 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa597b69de9ac7cc3d8f50d0a1f875dd') in 0.073295 seconds
+  Import took 0.076998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.529212 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd97c6ceaa7db48ea6fc0440a908c9936') in 0.068374 seconds
+  Import took 0.071836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.141393 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '276d68331c380603e072825e0b10fbd9') in 0.069789 seconds
+  Import took 0.073328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.316132 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b54f0c5f7a3b967ec857f43602bd145') in 0.083132 seconds
+  Import took 0.087099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004341 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b54f0c5f7a3b967ec857f43602bd145') in 0.073385 seconds
+  Import took 0.077581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.950218 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9df815096e93060575db457038bcfcc3') in 0.068826 seconds
+  Import took 0.072486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022075 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9df815096e93060575db457038bcfcc3') in 0.073111 seconds
+  Import took 0.077204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.177224 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6a2dcd30f355e62445eeb1952ad21ff') in 0.088307 seconds
+  Import took 0.092704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024292 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6a2dcd30f355e62445eeb1952ad21ff') in 0.071168 seconds
+  Import took 0.074971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.731034 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c60802cd9c008cb922d00d3649b98369') in 0.074985 seconds
+  Import took 0.079669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030551 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c60802cd9c008cb922d00d3649b98369') in 0.092680 seconds
+  Import took 0.096952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.900978 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfd2da1d2369060a6a48b3db7f98fa37') in 0.070375 seconds
+  Import took 0.074057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014826 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfd2da1d2369060a6a48b3db7f98fa37') in 0.078160 seconds
+  Import took 0.082194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.612833 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8356e054df4d28d934a7050a6daccf52') in 0.067908 seconds
+  Import took 0.072196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015121 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8356e054df4d28d934a7050a6daccf52') in 0.078161 seconds
+  Import took 0.083091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.082177 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac865979cc9e25f0ab93805b057f4636') in 0.080997 seconds
+  Import took 0.084943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007926 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac865979cc9e25f0ab93805b057f4636') in 0.076243 seconds
+  Import took 0.080880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.287894 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fd6b4c8826055b6072569921714b60a') in 0.087618 seconds
+  Import took 0.091272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012377 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fd6b4c8826055b6072569921714b60a') in 0.077050 seconds
+  Import took 0.081452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.892889 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12a4e1704f8105fa6f81a9d34b319947') in 0.072099 seconds
+  Import took 0.075838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026820 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12a4e1704f8105fa6f81a9d34b319947') in 0.074750 seconds
+  Import took 0.079312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.327296 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9af2147b0ea5059fe5e30910fc9baae') in 0.073134 seconds
+  Import took 0.077949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027342 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9af2147b0ea5059fe5e30910fc9baae') in 0.081996 seconds
+  Import took 0.086411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.237004 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abc7a08fc490ff16b377e8621d5a8de0') in 0.070615 seconds
+  Import took 0.074729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012435 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abc7a08fc490ff16b377e8621d5a8de0') in 0.075057 seconds
+  Import took 0.078910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.041591 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75c145d49cf265967cff9df1731ef1c1') in 0.131184 seconds
+  Import took 0.135498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027771 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75c145d49cf265967cff9df1731ef1c1') in 0.072237 seconds
+  Import took 0.076465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.574696 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ace05adab8e8c6a087a1193c5f82df1f') in 0.067418 seconds
+  Import took 0.070873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010590 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ace05adab8e8c6a087a1193c5f82df1f') in 0.079392 seconds
+  Import took 0.084033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.253623 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc67f70fa7bda6f6a24919751b5a5d1a') in 0.079199 seconds
+  Import took 0.083044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.990848 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17226e4f1458ed809ecc3a434ebf38eb') in 0.080112 seconds
+  Import took 0.083666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.586407 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d26b9cff7650954eeed2454945577e9') in 0.074313 seconds
+  Import took 0.079065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.181228 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '082f04b1cc3246c96c7b2b87bf4a6059') in 0.090058 seconds
+  Import took 0.093482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.423641 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82bc4dadf5064eef1c11315bccd31cdd') in 0.074237 seconds
+  Import took 0.079374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.293836 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c42bcedf099cfee43a71b00150e3f8f8') in 0.092475 seconds
+  Import took 0.095984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.869569 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43d0bc99e3b9db41e1206afbd508ce82') in 0.095929 seconds
+  Import took 0.099276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.733823 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10869da7d0e9205eaa237ed0e37e5e55') in 0.088100 seconds
+  Import took 0.092784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.362698 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74ab5f87e2f0e68afec422e9da465f7a') in 0.081687 seconds
+  Import took 0.085106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.606420 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88e487253d3e61d5cc90a261218645d9') in 0.070215 seconds
+  Import took 0.074044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009832 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88e487253d3e61d5cc90a261218645d9') in 0.076299 seconds
+  Import took 0.080652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 175.895505 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c6e70ccd7d4c9c042c382f5b1d8535d') in 0.076310 seconds
+  Import took 0.081165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023570 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c6e70ccd7d4c9c042c382f5b1d8535d') in 0.179919 seconds
+  Import took 0.184221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 110.776995 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd85078a45b5ee79212879eb77dfcaf0a') in 0.084833 seconds
+  Import took 0.093282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 78.432424 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd3d79e1674ed8c3a6d15091d74ef7c9') in 0.088027 seconds
+  Import took 0.093207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 251.825716 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b5c91c046852ecacc0651e61eb05006') in 0.076941 seconds
+  Import took 0.081230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.401427 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08c1aae97b085aab1049a900c6e3e546') in 0.062281 seconds
+  Import took 0.066196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.802862 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd34470fe5a8751197f2909c840b2a429') in 0.078447 seconds
+  Import took 0.082242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.095159 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2259bc9810d441f848e5a5084ac530fa') in 0.062689 seconds
+  Import took 0.065962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.588346 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71ee060ceb889370b3530c1535124b9a') in 0.090569 seconds
+  Import took 0.094250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.754325 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f833082cedde4dd24d7935aa680e6c0') in 0.090674 seconds
+  Import took 0.097422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.028778 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8bf3af714ae2c74bd31cf8d54d2ba3a') in 0.061618 seconds
+  Import took 0.065810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 162.136210 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d95652621a1413b8d5faac27c6ec7b3') in 0.250285 seconds
+  Import took 0.255720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.646966 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea0c16d3dfb670b57d48acfd8da658ab') in 0.056156 seconds
+  Import took 0.059908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.871921 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb3874e9d813b21d5e0b1fbd62ad6e35') in 0.060229 seconds
+  Import took 0.064138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.253842 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16b72bf864925bdb5c2d271972abdc1a') in 0.062981 seconds
+  Import took 0.066766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.136643 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1e0eb738051791e952dfd5122da5a25') in 0.083124 seconds
+  Import took 0.086883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.025850 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dafa1a4b5e9bed70bf757ef201f3e0ef') in 0.059303 seconds
+  Import took 0.063062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.464920 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90a59b8286aca481638d417d6624df26') in 0.061436 seconds
+  Import took 0.065050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.782515 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e52c718e089f2b6a1b5e131d9a9e1904') in 0.079092 seconds
+  Import took 0.082571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.310227 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94f23cde8fcd195ddda0444b89386250') in 0.058191 seconds
+  Import took 0.061656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.143084 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef750f493520dc8145cb2fe2a53b1294') in 0.061061 seconds
+  Import took 0.065061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.661021 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d1cb9577ae3467aeeaf02c4e8152458') in 0.062787 seconds
+  Import took 0.066443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.396368 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '740c9f092cce461e63aa4ff8dafd53dd') in 0.073799 seconds
+  Import took 0.077437 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 149.095273 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6353e2bc9eaaa61d7aaf4d114d57cdbf') in 0.060337 seconds
+  Import took 0.080828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 298.384391 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b97bab7392019a7d00b861210384cf69') in 0.059155 seconds
+  Import took 0.062269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.789927 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47349260396bf56e96eb1d27c11a4800') in 0.062549 seconds
+  Import took 0.066195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.934614 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60fe8cb8df03a92a5329a53221c61d9f') in 0.505997 seconds
+  Import took 0.509974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.983274 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c18b8f676c8f419753a794593318f3a6') in 0.085939 seconds
+  Import took 0.088891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.295847 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6155b4669aff1ac9a506d35a53712b0f') in 0.056632 seconds
+  Import took 0.059946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.454578 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '203f34f1f79acc1dc753b7f0df491948') in 0.076469 seconds
+  Import took 0.079509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.832543 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcce9a2564888c761683b60962473f7e') in 0.060964 seconds
+  Import took 0.065361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.267713 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dc7b07ff0f729bf8cd5a30d65caf8ae') in 0.058543 seconds
+  Import took 0.062906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.230157 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2aef3c0b1bc557597d20f318b4a1f40') in 0.063699 seconds
+  Import took 0.067425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.044506 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d0762f9c8062e634a2dea94a3588a59') in 0.083460 seconds
+  Import took 0.087029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.069012 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd79e34a9496378b68be67b98338b0f35') in 0.061872 seconds
+  Import took 0.065733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.069630 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5103d0772975f6e416f1944fe9a83970') in 0.059144 seconds
+  Import took 0.062798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.673552 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1617237bef7ac06df88f69f6eb1dd71') in 0.066096 seconds
+  Import took 0.070269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.906468 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e07a0359793ff7a128902000243a28d8') in 0.054217 seconds
+  Import took 0.057949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.270520 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faae09f28730160df8f510f54966a87b') in 0.087572 seconds
+  Import took 0.091996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.078715 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f26c0ea079218c9780970ce7460266d7') in 0.057350 seconds
+  Import took 0.061926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 200.729287 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e4686dc7c3ceb0f46ed2f7c71754643') in 0.054743 seconds
+  Import took 0.058311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.954463 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '550d1f3434d3b54832406719c8611f90') in 0.056916 seconds
+  Import took 0.060158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.994972 seconds.
+  path: Assets/Sprites/Guerilla Ninja.png
+  artifactKey: Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Guerilla Ninja.png using Guid(5b34fccf98e357142a289bc999988ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7daadcac6b61fea0c9eccf82466d73e9') in 0.068048 seconds
+  Import took 0.072089 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000816 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.684 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1923 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.7 MB.
+System memory in use after: 94.8 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2483.
+Total: 5.119300 ms (FindLiveObjects: 0.541400 ms CreateObjectMapping: 0.322200 ms MarkObjects: 4.204500 ms  DeleteObjects: 0.035100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1232.998583 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-01.png
+  artifactKey: Guid(d9b8dfbb10ebedb4d98a0b24268523c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-01.png using Guid(d9b8dfbb10ebedb4d98a0b24268523c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12dfce6ff862dbcbdd795afed272cac2') in 0.180514 seconds
+  Import took 0.185666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-back-01.png
+  artifactKey: Guid(e266c29e17b61684fa9f78a108268b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-back-01.png using Guid(e266c29e17b61684fa9f78a108268b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb23782145eb32ab931104a2cb70923c') in 0.100073 seconds
+  Import took 0.102680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-02.png
+  artifactKey: Guid(e7055d889a34dfd48b43ac75b7e1b635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-02.png using Guid(e7055d889a34dfd48b43ac75b7e1b635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da09c00040c5587bde3fc7cf26dd94c3') in 0.052457 seconds
+  Import took 0.054979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-back-04.png
+  artifactKey: Guid(3286049c5ba08934bb60e09f9b8611c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-back-04.png using Guid(3286049c5ba08934bb60e09f9b8611c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db1c651ee7db04e6d58289855045136b') in 0.076289 seconds
+  Import took 0.079879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-back-08.png
+  artifactKey: Guid(6e3cb40d5dfda4146b912d977c0616aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-back-08.png using Guid(6e3cb40d5dfda4146b912d977c0616aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec1d223d61fdcc8fef281b380ff97ea2') in 0.045887 seconds
+  Import took 0.048926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-back-09.png
+  artifactKey: Guid(9675609ab6dcdb94db2bd72719e39fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-back-09.png using Guid(9675609ab6dcdb94db2bd72719e39fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fda90cc38fb05e3015aa758877ed9d34') in 0.080688 seconds
+  Import took 0.083217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-04.png
+  artifactKey: Guid(9475a4796ab676345a808dfe2b305df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-04.png using Guid(9475a4796ab676345a808dfe2b305df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98662c07e54c2c0cbf0af8ef965348e6') in 0.051258 seconds
+  Import took 0.053696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-08.png
+  artifactKey: Guid(46d5c2efdf5cb944c919965a73807397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-08.png using Guid(46d5c2efdf5cb944c919965a73807397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b1bc48e48a6ff5092760d31155fb168') in 0.056254 seconds
+  Import took 0.058722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-07.png
+  artifactKey: Guid(3e27c65452c315b4eb9331aea0539c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-07.png using Guid(3e27c65452c315b4eb9331aea0539c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94488c5c9585b698842f12e4df3118a5') in 0.071575 seconds
+  Import took 0.074002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-06.png
+  artifactKey: Guid(a4e70eccb1b9d9241b46bd5692fbe0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-06.png using Guid(a4e70eccb1b9d9241b46bd5692fbe0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0386ef3b237fa7874710e19948d88ff1') in 0.052984 seconds
+  Import took 0.055447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-back-05.png
+  artifactKey: Guid(2bb2cbc5b3e3bfd48801156a28986337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-back-05.png using Guid(2bb2cbc5b3e3bfd48801156a28986337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6023aa9d87c000f4be74e99443ae6aee') in 0.077646 seconds
+  Import took 0.080021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-back-06.png
+  artifactKey: Guid(894d77d9fa032ae43bb1134b9a404ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-back-06.png using Guid(894d77d9fa032ae43bb1134b9a404ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23a49620b60e14cc70a640e0439c894c') in 0.075595 seconds
+  Import took 0.078805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-back-07.png
+  artifactKey: Guid(abe7b7d2f022d0d4797f07bc412dde6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-back-07.png using Guid(abe7b7d2f022d0d4797f07bc412dde6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f521aeab5ce3772806f2893a2a2f33d') in 0.079712 seconds
+  Import took 0.082247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-03.png
+  artifactKey: Guid(f5b0ea2a02fcd16468902c80a62df2fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-03.png using Guid(f5b0ea2a02fcd16468902c80a62df2fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95dbd2d702531fbd9a5e4813d459eb07') in 0.057317 seconds
+  Import took 0.059770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-back-03.png
+  artifactKey: Guid(e134fff17a4cce742aa0a5be5c1103bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-back-03.png using Guid(e134fff17a4cce742aa0a5be5c1103bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6deedac2ac7cee6399087a952348fe09') in 0.078689 seconds
+  Import took 0.081068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-05.png
+  artifactKey: Guid(48c2c72ef046a234992427ddc2e87b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-05.png using Guid(48c2c72ef046a234992427ddc2e87b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e2d531d5bd776459b4f3e445f764201') in 0.058489 seconds
+  Import took 0.060894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-09.png
+  artifactKey: Guid(043e06644078a694580a86ffbd77555d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-09.png using Guid(043e06644078a694580a86ffbd77555d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f86f08c1d80a95bed2edee95c6c4ad97') in 0.065524 seconds
+  Import took 0.067943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-back-02.png
+  artifactKey: Guid(0b8cc59e403c82e4f9a7ee67cd1cbc74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-back-02.png using Guid(0b8cc59e403c82e4f9a7ee67cd1cbc74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c26039d8a1b66c3ddd6d087fa04d58aa') in 0.079149 seconds
+  Import took 0.082869 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000711 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.683 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1923 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.7 MB.
+System memory in use after: 94.8 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2507.
+Total: 3.591100 ms (FindLiveObjects: 0.434900 ms CreateObjectMapping: 0.228700 ms MarkObjects: 2.909400 ms  DeleteObjects: 0.016500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000641 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.657 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1923 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.7 MB.
+System memory in use after: 94.9 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2510.
+Total: 2.093900 ms (FindLiveObjects: 0.282800 ms CreateObjectMapping: 0.116400 ms MarkObjects: 1.658500 ms  DeleteObjects: 0.015300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000973 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.677 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1923 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.8 MB.
+System memory in use after: 94.9 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2513.
+Total: 3.055900 ms (FindLiveObjects: 0.409600 ms CreateObjectMapping: 0.246200 ms MarkObjects: 2.385100 ms  DeleteObjects: 0.013100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 966.450285 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32e67e86a11cb2c8b8cb3d368caa2733') in 0.027265 seconds
+  Import took 0.030666 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001015 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.655 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1923 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.8 MB.
+System memory in use after: 94.9 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2516.
+Total: 2.244500 ms (FindLiveObjects: 0.162700 ms CreateObjectMapping: 0.065600 ms MarkObjects: 1.980600 ms  DeleteObjects: 0.034800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 101.686193 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(bbbc74fad6ed1d243aee6102298f428b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(bbbc74fad6ed1d243aee6102298f428b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e141f0b836694a7dcc9af4f75c2df60') in 0.008993 seconds
+  Import took 0.011764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.040861 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(083eb94bc4b0f954f873ed8a02bce570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(083eb94bc4b0f954f873ed8a02bce570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eb09a41b07f8a11fddc155f22751d74') in 0.008221 seconds
+  Import took 0.011165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.354233 seconds.
+  path: Assets/Scripts/Player.cs
+  artifactKey: Guid(a523eef7db132034f8247f988b98408f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.cs using Guid(a523eef7db132034f8247f988b98408f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f081f6131806da035e2cc0ff2ca290d2') in 0.037183 seconds
+  Import took 0.040239 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000770 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.683 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1924 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.8 MB.
+System memory in use after: 94.9 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2520.
+Total: 3.148600 ms (FindLiveObjects: 0.249800 ms CreateObjectMapping: 0.103100 ms MarkObjects: 2.758000 ms  DeleteObjects: 0.014900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 267.313966 seconds.
+  path: Assets/Scripts/Player.cs
+  artifactKey: Guid(a523eef7db132034f8247f988b98408f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.cs using Guid(a523eef7db132034f8247f988b98408f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c78b6ba6f7bce7e2bd4503def8c72f1c') in 0.006602 seconds
+  Import took 0.010435 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000983 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.701 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1924 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.8 MB.
+System memory in use after: 94.9 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2523.
+Total: 3.250900 ms (FindLiveObjects: 0.387800 ms CreateObjectMapping: 0.230500 ms MarkObjects: 2.596300 ms  DeleteObjects: 0.034800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000757 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.721 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1924 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.8 MB.
+System memory in use after: 94.9 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2526.
+Total: 1.726700 ms (FindLiveObjects: 0.200800 ms CreateObjectMapping: 0.082400 ms MarkObjects: 1.427100 ms  DeleteObjects: 0.015900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000783 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.696 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1924 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.8 MB.
+System memory in use after: 94.9 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2529.
+Total: 4.483900 ms (FindLiveObjects: 0.202500 ms CreateObjectMapping: 0.083200 ms MarkObjects: 4.172600 ms  DeleteObjects: 0.024100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000735 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.710 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1924 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.8 MB.
+System memory in use after: 95.0 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2532.
+Total: 3.404300 ms (FindLiveObjects: 0.359600 ms CreateObjectMapping: 0.200400 ms MarkObjects: 2.783100 ms  DeleteObjects: 0.059700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000917 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.722 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1924 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.8 MB.
+System memory in use after: 95.0 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2535.
+Total: 2.265200 ms (FindLiveObjects: 0.353100 ms CreateObjectMapping: 0.097100 ms MarkObjects: 1.797400 ms  DeleteObjects: 0.016700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000752 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.699 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1924 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.8 MB.
+System memory in use after: 95.0 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2538.
+Total: 2.095600 ms (FindLiveObjects: 0.248900 ms CreateObjectMapping: 0.099700 ms MarkObjects: 1.731700 ms  DeleteObjects: 0.014700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2457.891803 seconds.
+  path: Assets/Animations/Player/Guerilla Ninja.controller
+  artifactKey: Guid(10442f4bbe2292e4eab99654dfffe910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Player/Guerilla Ninja.controller using Guid(10442f4bbe2292e4eab99654dfffe910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6a42a74c94fc5d4efd03b746eaf7587') in 0.028900 seconds
+  Import took 0.033832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000919 seconds.
+  path: Assets/Animations/Player/Guerilla Ninja.controller
+  artifactKey: Guid(10442f4bbe2292e4eab99654dfffe910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Player/Guerilla Ninja.controller using Guid(10442f4bbe2292e4eab99654dfffe910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6a42a74c94fc5d4efd03b746eaf7587') in 0.008132 seconds
+  Import took 0.012503 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001310 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.711 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1924 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.9 MB.
+System memory in use after: 95.0 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2541.
+Total: 3.972500 ms (FindLiveObjects: 0.411800 ms CreateObjectMapping: 0.214000 ms MarkObjects: 3.330800 ms  DeleteObjects: 0.014400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000782 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.699 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.94 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1924 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.9 MB.
+System memory in use after: 95.0 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2544.
+Total: 1.632300 ms (FindLiveObjects: 0.201700 ms CreateObjectMapping: 0.080700 ms MarkObjects: 1.330100 ms  DeleteObjects: 0.019200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001131 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.663 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.91 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1924 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.9 MB.
+System memory in use after: 95.0 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2547.
+Total: 1.933800 ms (FindLiveObjects: 0.303900 ms CreateObjectMapping: 0.111300 ms MarkObjects: 1.501400 ms  DeleteObjects: 0.016200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000767 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.672 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1924 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.9 MB.
+System memory in use after: 95.0 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2550.
+Total: 3.742600 ms (FindLiveObjects: 0.414600 ms CreateObjectMapping: 0.239900 ms MarkObjects: 3.072800 ms  DeleteObjects: 0.013900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001150 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.682 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1924 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.9 MB.
+System memory in use after: 95.0 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2553.
+Total: 2.431300 ms (FindLiveObjects: 0.274400 ms CreateObjectMapping: 0.156500 ms MarkObjects: 1.962000 ms  DeleteObjects: 0.037600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001391 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.675 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1924 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.9 MB.
+System memory in use after: 95.0 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2556.
+Total: 3.686600 ms (FindLiveObjects: 0.420600 ms CreateObjectMapping: 0.236900 ms MarkObjects: 3.012800 ms  DeleteObjects: 0.014900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000918 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.733 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1924 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.9 MB.
+System memory in use after: 95.0 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2559.
+Total: 3.265200 ms (FindLiveObjects: 0.541300 ms CreateObjectMapping: 0.232200 ms MarkObjects: 2.473900 ms  DeleteObjects: 0.016600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000741 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.698 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1924 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.9 MB.
+System memory in use after: 95.0 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2562.
+Total: 3.857200 ms (FindLiveObjects: 0.413400 ms CreateObjectMapping: 0.227100 ms MarkObjects: 3.200600 ms  DeleteObjects: 0.014700 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

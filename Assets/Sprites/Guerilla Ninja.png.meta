@@ -1,7 +1,115 @@
 fileFormatVersion: 2
 guid: 5b34fccf98e357142a289bc999988ebe
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -1972074329334384623
+    second: Guerilla Ninja_0
+  - first:
+      213: -8016029191436427696
+    second: Guerilla Ninja_1
+  - first:
+      213: -4381448415786415921
+    second: Guerilla Ninja_2
+  - first:
+      213: -7612937773499731371
+    second: Guerilla Ninja_3
+  - first:
+      213: 8801700945573773646
+    second: Guerilla Ninja_4
+  - first:
+      213: -4782044206451538795
+    second: Guerilla Ninja_5
+  - first:
+      213: -8544082715780526157
+    second: Guerilla Ninja_6
+  - first:
+      213: 6271302244989881959
+    second: Guerilla Ninja_7
+  - first:
+      213: 2291767780090165957
+    second: Guerilla Ninja_8
+  - first:
+      213: 6946135885144400934
+    second: Guerilla Ninja_9
+  - first:
+      213: -7500517415071318642
+    second: Guerilla Ninja_10
+  - first:
+      213: -6948304736103434892
+    second: Guerilla Ninja_11
+  - first:
+      213: -1370122125525341702
+    second: Guerilla Ninja_12
+  - first:
+      213: 1494141509725855699
+    second: Guerilla Ninja_13
+  - first:
+      213: 1696756098250150396
+    second: Guerilla Ninja_14
+  - first:
+      213: -3940755649122165337
+    second: Guerilla Ninja_15
+  - first:
+      213: 4918275671847926691
+    second: Guerilla Ninja_16
+  - first:
+      213: 8890610865795787750
+    second: Guerilla Ninja_17
+  - first:
+      213: 597098352782341223
+    second: Guerilla Ninja_18
+  - first:
+      213: 2724711583171158538
+    second: Guerilla Ninja_19
+  - first:
+      213: -7652231184093698632
+    second: Guerilla Ninja_20
+  - first:
+      213: 99341877643293708
+    second: Guerilla Ninja_21
+  - first:
+      213: -7523138941395991717
+    second: Guerilla Ninja_22
+  - first:
+      213: 1791778463086824742
+    second: Guerilla Ninja_23
+  - first:
+      213: 2052523029787699204
+    second: Guerilla Ninja_24
+  - first:
+      213: 8434526412898270917
+    second: Guerilla Ninja_25
+  - first:
+      213: 8263634111475977305
+    second: Guerilla Ninja_26
+  - first:
+      213: -6155981570732084204
+    second: Guerilla Ninja_27
+  - first:
+      213: 4812882531762091655
+    second: Guerilla Ninja_28
+  - first:
+      213: 2568169014844549000
+    second: Guerilla Ninja_29
+  - first:
+      213: -3495203025541953954
+    second: Guerilla Ninja_30
+  - first:
+      213: 1905672801782293913
+    second: Guerilla Ninja_31
+  - first:
+      213: 4148089336271822095
+    second: Guerilla Ninja_32
+  - first:
+      213: 6521280914202524923
+    second: Guerilla Ninja_33
+  - first:
+      213: -6638038596081172830
+    second: Guerilla Ninja_34
+  - first:
+      213: 2082298977715557405
+    second: Guerilla Ninja_35
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -32,7 +140,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -41,12 +149,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -65,10 +173,58 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -77,7 +233,763 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Guerilla Ninja_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 270
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1187b5198d8c1a4e0800000000000000
+      internalID: -1972074329334384623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guerilla Ninja_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 270
+        width: 31
+        height: 51
+      alignment: 9
+      pivot: {x: 0.58, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05e154fcbe751c090800000000000000
+      internalID: -8016029191436427696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guerilla Ninja_2
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 270
+        width: 33
+        height: 51
+      alignment: 9
+      pivot: {x: 0.605, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc84a5731e7f133c0800000000000000
+      internalID: -4381448415786415921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guerilla Ninja_3
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 268
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55235691e69695690800000000000000
+      internalID: -7612937773499731371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guerilla Ninja_4
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 268
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e410528606ce52a70800000000000000
+      internalID: 8801700945573773646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guerilla Ninja_5
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 268
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 594cd3e6124c2adb0800000000000000
+      internalID: -4782044206451538795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guerilla Ninja_6
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 266
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bfc85ad9025d6980800000000000000
+      internalID: -8544082715780526157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guerilla Ninja_7
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 266
+        width: 32
+        height: 51
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76e4bbf3a24280750800000000000000
+      internalID: 6271302244989881959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guerilla Ninja_8
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 266
+        width: 37
+        height: 51
+      alignment: 9
+      pivot: {x: 0.35, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cab5f757aefdcf10800000000000000
+      internalID: 2291767780090165957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guerilla Ninja_9
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 266
+        width: 43
+        height: 51
+      alignment: 9
+      pivot: {x: 0.3, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62420ab09c1a56060800000000000000
+      internalID: 6946135885144400934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guerilla Ninja_10
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 194
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8dfa03862fc8e790800000000000000
+      internalID: -7500517415071318642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guerilla Ninja_11
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 193
+        width: 31
+        height: 50
+      alignment: 9
+      pivot: {x: 0.58, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 475f36df7a9a29f90800000000000000
+      internalID: -6948304736103434892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guerilla Ninja_12
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 193
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af9a821af295cfce0800000000000000
+      internalID: -1370122125525341702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guerilla Ninja_13
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 194
+        width: 31
+        height: 49
+      alignment: 9
+      pivot: {x: 0.58, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3df106b69c14cb410800000000000000
+      internalID: 1494141509725855699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guerilla Ninja_14
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 192
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf19daa7ea61c8710800000000000000
+      internalID: 1696756098250150396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guerilla Ninja_15
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 192
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ad957bbd9f9f49c0800000000000000
+      internalID: -3940755649122165337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guerilla Ninja_16
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 213
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3abf0f75aa9314440800000000000000
+      internalID: 4918275671847926691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guerilla Ninja_17
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 191
+        width: 50
+        height: 52
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eb6cfb5a7bc16b70800000000000000
+      internalID: 8890610865795787750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guerilla Ninja_18
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 191
+        width: 34
+        height: 51
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 764ff8dc9c1594800800000000000000
+      internalID: 597098352782341223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guerilla Ninja_19
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 108
+        width: 35
+        height: 51
+      alignment: 9
+      pivot: {x: 0.6, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a022f4eafbe10d520800000000000000
+      internalID: 2724711583171158538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guerilla Ninja_20
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 109
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b5ade40840ddc590800000000000000
+      internalID: -7652231184093698632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guerilla Ninja_21
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 111
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c04bf3059eee06100800000000000000
+      internalID: 99341877643293708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guerilla Ninja_22
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 116
+        width: 56
+        height: 52
+      alignment: 9
+      pivot: {x: 0.3, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b530f2afdf0789790800000000000000
+      internalID: -7523138941395991717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guerilla Ninja_23
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 115
+        width: 42
+        height: 52
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62d4c78d40dadd810800000000000000
+      internalID: 1791778463086824742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guerilla Ninja_24
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 115
+        width: 42
+        height: 52
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 408edc322d60c7c10800000000000000
+      internalID: 2052523029787699204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guerilla Ninja_25
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 31
+        width: 154
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ce7371a5157d0570800000000000000
+      internalID: 8434526412898270917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guerilla Ninja_26
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 35
+        width: 51
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 1.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95c835811735ea270800000000000000
+      internalID: 8263634111475977305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guerilla Ninja_27
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 34
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 414b9a0906f819aa0800000000000000
+      internalID: -6155981570732084204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guerilla Ninja_28
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 52
+        width: 46
+        height: 51
+      alignment: 9
+      pivot: {x: 0.35, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 786bc53b92bcac240800000000000000
+      internalID: 4812882531762091655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guerilla Ninja_29
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 51
+        width: 35
+        height: 51
+      alignment: 9
+      pivot: {x: 0.35, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88769fcbc18f3a320800000000000000
+      internalID: 2568169014844549000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guerilla Ninja_30
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 51
+        width: 35
+        height: 51
+      alignment: 9
+      pivot: {x: 0.35, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5683bcdd5b8e7fc0800000000000000
+      internalID: -3495203025541953954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guerilla Ninja_31
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 21
+        width: 38
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9956b58015f427a10800000000000000
+      internalID: 1905672801782293913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guerilla Ninja_32
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 19
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0d51191649f09930800000000000000
+      internalID: 4148089336271822095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guerilla Ninja_33
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 4
+        width: 20
+        height: 3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfc7393b07e308a50800000000000000
+      internalID: 6521280914202524923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guerilla Ninja_34
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 10
+        width: 6
+        height: 3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aebf331113f0e3a0800000000000000
+      internalID: -6638038596081172830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guerilla Ninja_35
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 34
+        width: 33
+        height: 51
+      alignment: 9
+      pivot: {x: 0.6, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1415e243efc5ec10800000000000000
+      internalID: 2082298977715557405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
