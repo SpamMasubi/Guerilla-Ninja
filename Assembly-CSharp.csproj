@@ -53,10 +53,19 @@
     <UnityVersion>2020.2.3f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\InventorySystem.cs" />
     <Compile Include="Assets\Scripts\CameraFollow.cs" />
+    <Compile Include="Assets\Scripts\InteractionSystem.cs" />
+    <Compile Include="Assets\Scripts\AudioManager.cs" />
+    <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\Item.cs" />
+    <Compile Include="Assets\Scripts\KillSound.cs" />
   </ItemGroup>
   <ItemGroup>
+     <None Include="Assets\SimplePixelUI\fonts\Font2\license.txt" />
+     <None Include="Assets\SimplePixelUI\fonts\Font1\license.txt" />
+     <None Include="Assets\SimplePixelUI\fonts\Font1\readme.txt" />
+     <None Include="Assets\SimplePixelUI\fonts\Font2\readme.txt" />
     <Reference Include="UnityEngine">
       <HintPath>E:\My Games\Hub\Editor\2020.2.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>

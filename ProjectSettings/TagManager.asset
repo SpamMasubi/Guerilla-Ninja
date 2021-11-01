@@ -12,7 +12,7 @@ TagManager:
   - Water
   - UI
   - Ground
-  - 
+  - Item
   - 
   - 
   - 
@@ -46,6 +46,12 @@ TagManager:
     locked: 0
   - name: Ground
     uniqueID: 1907298355
+    locked: 0
+  - name: Item
+    uniqueID: 2312264867
+    locked: 0
+  - name: Vehicle(BG)
+    uniqueID: 2024985621
     locked: 0
   - name: Player
     uniqueID: 321853825

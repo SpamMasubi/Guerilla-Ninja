@@ -7,19 +7,22 @@ public class Player : MonoBehaviour
     public float speed = 1; //player speed
     public float jumpPower = 150;
     const float groundCheckRadius = 0.2f;
-    Rigidbody2D rb2d; //Rigidbody2D
-    Animator animator; //Player Animator
     float horizontalValue; //horizontal values
     float runSpeedModifier = 2f; //speed modifier for running
+
+    int availableJumps; //how many jumps left
+
     bool facingRight = true; //facing right
     bool isRunning; //player isn't running
-    int availableJumps; //how many jumps left
     bool multipleJumps; //jump more than once
     bool coyoteJump; //coyote jump
+    bool isGrounded; //ground checker
 
+    Rigidbody2D rb2d; //Rigidbody2D
+    Animator animator; //Player Animator
+    
     [SerializeField] Transform groundChecker;
     [SerializeField]LayerMask groundLayer;
-    [SerializeField]bool isGrounded; //ground checker
     [SerializeField] int totalJumps; //total amount of jumps
     
 
@@ -34,6 +37,10 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (!canMove())
+        {
+            return;
+        }
         //Set yVelocity in animator
         animator.SetFloat("yVelocity", rb2d.velocity.y);
         //store horizontal value
@@ -60,7 +67,29 @@ public class Player : MonoBehaviour
     void FixedUpdate()
     {
         GroundCheck();
-        PlayerMove(horizontalValue); //calls function
+        if (!FindObjectOfType<InteractionSystem>().isExamining && !FindObjectOfType<InventorySystem>().isOpen)
+        {
+            PlayerMove(horizontalValue); //calls function
+        }
+        else
+        {
+            rb2d.velocity = Vector2.zero;
+        }
+    }
+
+    bool canMove()
+    {
+        bool can = true;
+        if (FindObjectOfType<InteractionSystem>().isExamining)
+        {
+            can = false;
+        }
+        if (FindObjectOfType<InventorySystem>().isOpen)
+        {
+            can = false;
+        }
+
+        return can;
     }
 
     void GroundCheck() //Check if Groundcheck is colliding with Ground Layered object
@@ -107,6 +136,7 @@ public class Player : MonoBehaviour
             //add jump force
             rb2d.velocity = Vector2.up * jumpPower;
             animator.SetBool("Jump", true);
+            AudioManager.instance.PlaySFX("jump");
         }
         else
         {
@@ -127,6 +157,7 @@ public class Player : MonoBehaviour
                 //add jump force
                 rb2d.velocity = Vector2.up * jumpPower;
                 animator.SetBool("Jump", true);
+                AudioManager.instance.PlaySFX("jump");
             }
         }
     }
@@ -144,6 +175,7 @@ public class Player : MonoBehaviour
         Vector2 targetVelocity = new Vector2(xVal, rb2d.velocity.y);
         //Set the velocity of the player
         rb2d.velocity = targetVelocity;
+        
 
         /**
         ////Store current scale value
@@ -166,11 +198,22 @@ public class Player : MonoBehaviour
 
 
         //0 idle, 6 walk, 12 idle
-        //Set float xVelocity according to the x value of the Rigidbody2D velcoity
+        //Set float xVelocity according to the x value of the Rigidbody2D velocity
         animator.SetFloat("xVelocity", Mathf.Abs(rb2d.velocity.x));
 
         //currentScale = transform.localScale;
         #endregion
 
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawSphere(groundChecker.position, groundCheckRadius);
+    }
+
+    public void PlayerRunSFX()
+    {
+        AudioManager.instance.PlaySFX("running");
     }
 }
