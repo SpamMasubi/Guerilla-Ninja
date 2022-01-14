@@ -3,7 +3,16 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Trap
+  - Enemy
+  - playerProjectiles
+  - playerAttack
+  - enemyProjectile
+  - MovingPlatform
+  - Ammunitions
+  - FloorWall
+  - Boss
   layers:
   - Default
   - TransparentFX
@@ -13,9 +22,9 @@ TagManager:
   - UI
   - Ground
   - Item
-  - 
-  - 
-  - 
+  - Projectiles
+  - Player
+  - Enemy
   - 
   - 
   - 
@@ -47,12 +56,33 @@ TagManager:
   - name: Ground
     uniqueID: 1907298355
     locked: 0
-  - name: Item
-    uniqueID: 2312264867
+  - name: Platforms
+    uniqueID: 622610017
     locked: 0
   - name: Vehicle(BG)
     uniqueID: 2024985621
     locked: 0
+  - name: Loot Crates
+    uniqueID: 2908466249
+    locked: 0
+  - name: Item
+    uniqueID: 2312264867
+    locked: 0
   - name: Player
     uniqueID: 321853825
+    locked: 0
+  - name: Enemy
+    uniqueID: 3568130657
+    locked: 0
+  - name: Traps
+    uniqueID: 1484968689
+    locked: 0
+  - name: Projectiles
+    uniqueID: 2756615843
+    locked: 0
+  - name: UI
+    uniqueID: 489207093
+    locked: 0
+  - name: Effects
+    uniqueID: 35284401
     locked: 0

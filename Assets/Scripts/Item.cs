@@ -6,16 +6,19 @@ using UnityEngine.Events;
 [RequireComponent(typeof(BoxCollider2D))]
 public class Item : MonoBehaviour
 {
-    public enum InteractionType { NONE, PICKUP, EXAMINE} //type of interaction
-    public enum ItemType { STATIC, CONSUMABLE} //type of items
+    public enum ItemType {POINTS, AMMUNITIONS, HEALTH, LIFE} //type of interaction
     [Header("Attributes")]
-    public InteractionType interactType;
     public ItemType item;
-    [Header("Examine")]
-    public string descriptionText; //description
-    [Header("Custom Event")]
-    public UnityEvent customEvents;
-    public UnityEvent consumeEvent;
+    public int points, healthRestore, ammo, life;
+    Rigidbody2D rb;
+
+    private void Start()
+    {
+        if(gameObject.tag == "Ammunitions")
+        {
+            rb = GetComponent<Rigidbody2D>();
+        }
+    }
 
     void Reset() //reset function
     {
@@ -23,24 +26,67 @@ public class Item : MonoBehaviour
         gameObject.layer = 7;
     }
 
-    public void Interact() //interaction of items
+    public void itemTypes() //interaction of items
     {
-        switch (interactType)
+        switch (item)
         {
-            case InteractionType.PICKUP:
-                FindObjectOfType<InventorySystem>().Pickup(gameObject);//Add the object to the pickedup item list
-                gameObject.SetActive(false);//delete object
+            case ItemType.POINTS:
+                if (gameObject.name == "Big Money")
+                {
+                    AudioManager.instance.PlaySFX("Points");
+                    FindObjectOfType<GameManager>().scores += points;
+                }
+                else
+                {
+                    AudioManager.instance.PlaySFX("Points");
+                    FindObjectOfType<GameManager>().scores += points;
+                }
                 break;
-            case InteractionType.EXAMINE:
-                FindObjectOfType<InteractionSystem>().ExamineItem(this);//Call the Examine item in the interaction system
-                Debug.Log("Examine");
+            case ItemType.AMMUNITIONS:
+                if (gameObject.name == "AR Ammo" || gameObject.name == "AR Ammo(Clone)")
+                {
+                    AudioManager.instance.PlaySFX("TakeAmmo");
+                    FindObjectOfType<GameManager>().assaultRifleAmmo += ammo;
+                }
+                else if (gameObject.name == "Shuriken Ammo" || gameObject.name == "Shuriken Ammo(Clone)")
+                {
+                    AudioManager.instance.PlaySFX("TakeAmmo");
+                    FindObjectOfType<GameManager>().shurikenCount += ammo;
+
+                }
+                else
+                {
+                    AudioManager.instance.PlaySFX("TakeAmmo");
+                    FindObjectOfType<GameManager>().handgunAmmo += ammo;
+                }
+                break;
+            case ItemType.HEALTH:
+                if(gameObject.name == "Bun Rieu")
+                {
+                    FindObjectOfType<Healthbar>().gainHealth(healthRestore);
+                }
+                else
+                {
+                    FindObjectOfType<Healthbar>().gainHealth(healthRestore);
+                }
+                break;
+            case ItemType.LIFE:
+                AudioManager.instance.PlaySFX("LifeRestore");
+                FindObjectOfType<GameManager>().lives += 1;
                 break;
             default:
                 Debug.Log("Null");
                 break;
         }
 
-        //Invoke (call) custom events
-        customEvents.Invoke();
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.tag == "Player")
+        {
+            itemTypes();
+            Destroy(gameObject);
+        }
     }
 }

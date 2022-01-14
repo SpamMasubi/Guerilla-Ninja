@@ -11,12 +11,11 @@ public class AudioManager : MonoBehaviour
     }
 
     //Sound Effects
-    public AudioClip jump, run, attack, pickup,
-        shootAR, shootHandgun, hurt, dead, respawn;
+    public AudioClip jump, run, attack, points,
+        shootAR, shootHandgun, shootSniper, hurt, dead, respawn, throwing, explosion, enemyHit,
+        health, ammo, life, switchWeapon, bossHit, bossDamage, win;
     //Music
     public AudioClip music;
-    //Current Music Object
-    public GameObject currentMusicObject;
 
     //Sound Object
     public GameObject soundObject;
@@ -28,11 +27,62 @@ public class AudioManager : MonoBehaviour
             case "jump":
                 SoundObjectCreation(jump);
                 break;
-            case "pickup":
-                SoundObjectCreation(pickup);
+            case "Points":
+                SoundObjectCreation(points);
                 break;
             case "running":
                 SoundObjectCreation(run);
+                break;
+            case "throwing":
+                SoundObjectCreation(throwing);
+                break;
+            case "shootHandgun":
+                SoundObjectCreation(shootHandgun);
+                break;
+            case "shootAssaultRifle":
+                SoundObjectCreation(shootAR);
+                break;
+            case "shootSniper":
+                SoundObjectCreation(shootSniper);
+                break;
+            case "Attack":
+                SoundObjectCreation(attack);
+                break;
+            case "hurt":
+                SoundObjectCreation(hurt);
+                break;
+            case "dead":
+                SoundObjectCreation(dead);
+                break;
+            case "explosion":
+                SoundObjectCreation(explosion);
+                break;
+            case "enemyHit":
+                SoundObjectCreation(enemyHit);
+                break;
+            case "bossHit":
+                SoundObjectCreation(bossHit);
+                break;
+            case "bossDamage":
+                SoundObjectCreation(bossDamage);
+                break;
+            case "HealthRestore":
+                SoundObjectCreation(health);
+                break;
+            case "TakeAmmo":
+                SoundObjectCreation(ammo);
+                break;
+            case "LifeRestore":
+                SoundObjectCreation(life);
+                break;
+            case "weaponSwitch":
+                SoundObjectCreation(switchWeapon);
+                break;
+            case "Respawn":
+                SoundObjectCreation(respawn);
+                break;
+            case "Win":
+                SoundObjectCreation(win);
                 break;
             default:
                 break;
@@ -47,35 +97,6 @@ public class AudioManager : MonoBehaviour
         newObject.GetComponent<AudioSource>().clip = clip;
         //Play the audio
         newObject.GetComponent<AudioSource>().Play();
-    }
-
-    public void PlayMusic(string musicName)
-    {
-        switch (musicName)
-        {
-            case "Level1":
-                MusicObjectCreation(music);
-                break;
-            default:
-                break;
-        }
-    }
-
-    void MusicObjectCreation(AudioClip clip)
-    {
-        //Check if there is an existing music object, if so delete it
-        if (currentMusicObject)
-        {
-            Destroy(currentMusicObject);
-        }
-        //Create SoundObject gameobject
-        currentMusicObject = Instantiate(soundObject, transform);
-        //Assign aduioclip to its audiosource
-        currentMusicObject.GetComponent<AudioSource>().clip = clip;
-        //Make the audio source looping
-        currentMusicObject.GetComponent<AudioSource>().loop = true;
-        //Play the audio
-        currentMusicObject.GetComponent<AudioSource>().Play();
     }
 
 }
