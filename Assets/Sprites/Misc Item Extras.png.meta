@@ -172,10 +172,10 @@ TextureImporter:
       name: Misc Item Extras_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 137
-        width: 52
-        height: 9
+        x: 2
+        y: 32
+        width: 24
+        height: 161
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,10 +193,10 @@ TextureImporter:
       name: Misc Item Extras_1
       rect:
         serializedVersion: 2
-        x: 67
-        y: 133
-        width: 52
-        height: 13
+        x: 36
+        y: 176
+        width: 48
+        height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -214,10 +214,10 @@ TextureImporter:
       name: Misc Item Extras_2
       rect:
         serializedVersion: 2
-        x: 131
-        y: 137
-        width: 52
-        height: 14
+        x: 40
+        y: 165
+        width: 187
+        height: 3
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -235,10 +235,10 @@ TextureImporter:
       name: Misc Item Extras_3
       rect:
         serializedVersion: 2
-        x: 2
-        y: 7
-        width: 19
-        height: 121
+        x: 44
+        y: 89
+        width: 83
+        height: 65
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -256,10 +256,10 @@ TextureImporter:
       name: Misc Item Extras_4
       rect:
         serializedVersion: 2
-        x: 26
-        y: 7
-        width: 19
-        height: 121
+        x: 136
+        y: 89
+        width: 23
+        height: 35
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -277,10 +277,10 @@ TextureImporter:
       name: Misc Item Extras_5
       rect:
         serializedVersion: 2
-        x: 131
-        y: 123
-        width: 56
-        height: 13
+        x: 161
+        y: 89
+        width: 23
+        height: 35
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -298,10 +298,10 @@ TextureImporter:
       name: Misc Item Extras_6
       rect:
         serializedVersion: 2
-        x: 65
-        y: 42
-        width: 83
-        height: 64
+        x: 48
+        y: 41
+        width: 79
+        height: 21
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -319,10 +319,10 @@ TextureImporter:
       name: Misc Item Extras_7
       rect:
         serializedVersion: 2
-        x: 150
-        y: 86
-        width: 28
-        height: 22
+        x: 43
+        y: 2
+        width: 77
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -340,115 +340,10 @@ TextureImporter:
       name: Misc Item Extras_8
       rect:
         serializedVersion: 2
-        x: 150
-        y: 61
-        width: 28
-        height: 22
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c16cf286c3518b6f0800000000000000
-      internalID: -668761195474336228
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Misc Item Extras_9
-      rect:
-        serializedVersion: 2
-        x: 83
-        y: 1
-        width: 61
-        height: 37
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e3a4b7ddec7fbe260800000000000000
-      internalID: 7128063303095110206
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Misc Item Extras_10
-      rect:
-        serializedVersion: 2
-        x: 150
-        y: 1
-        width: 40
-        height: 36
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 57df603a352683490800000000000000
-      internalID: -7766349446043468427
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Misc Item Extras_11
-      rect:
-        serializedVersion: 2
-        x: 181
-        y: 64
-        width: 3
-        height: 43
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ed1b53e553e9ba0b0800000000000000
-      internalID: -5716301349965680162
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Misc Item Extras_12
-      rect:
-        serializedVersion: 2
-        x: 186
-        y: 65
-        width: 3
-        height: 41
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1c7da6f929c4db390800000000000000
-      internalID: -7800994786912315455
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Misc Item Extras_13
-      rect:
-        serializedVersion: 2
-        x: 45
-        y: 119
-        width: 145
-        height: 3
+        x: 96
+        y: 172
+        width: 48
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -456,8 +351,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 00e6868776941b640800000000000000
-      internalID: 5093933362283310592
+      spriteID: c16cf286c3518b6f0800000000000000
+      internalID: -668761195474336228
       vertices: []
       indices: 
       edges: []
