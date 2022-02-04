@@ -66,7 +66,7 @@ public class Player : MonoBehaviour
             FindObjectOfType<Healthbar>().LoseHealth(999999);
         }
 
-        if (!canMove())
+        if (!canMove() || BossVehicle.isDead)
         {
             return;
         }
@@ -95,8 +95,9 @@ public class Player : MonoBehaviour
 
     void FixedUpdate()
     {
+
         GroundCheck();
-        if (!isDead && !isHurt && !BossVehicle.isDead)
+        if (!isDead && !isHurt)
         {
             PlayerMove(horizontalValue); //calls function
         }
@@ -111,7 +112,7 @@ public class Player : MonoBehaviour
     bool canMove()
     {
         bool can = true;
-        if (isDead && !BossVehicle.isDead)
+        if (isDead || BossVehicle.isDead)
         {
             isRunning = false;
             can = false;
@@ -215,7 +216,11 @@ public class Player : MonoBehaviour
         {
             xVal *= runSpeedModifier;
         }
-        //Create Vector2 for velocity
+        else if (BossVehicle.isDead)
+        {
+            xVal = 0;
+        }
+        //Create Vector2 for velocity 
         Vector2 targetVelocity = new Vector2(xVal, rb2d.velocity.y);
         //Set the velocity of the player
         rb2d.velocity = targetVelocity;

@@ -166,7 +166,7 @@ public class BossVehicle : MonoBehaviour
     {
         isDead = true;
         ExplosionEffect();
-        FindObjectOfType<PlayMusic>().StopSong();
+        Destroy(FindObjectOfType<PlayMusic>().gameObject);
         GetComponent<BossVehicle>().enabled = false;
         FindObjectOfType<BossVehicle>().GetComponentInChildren<BossSpecial>().enabled = false;
         anim.SetTrigger("Defeated");

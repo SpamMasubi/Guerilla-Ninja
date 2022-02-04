@@ -11,7 +11,7 @@ public class BossAttack : MonoBehaviour
     public GameObject player;
 
     public GameObject Explosion;
-    private int untilDisabled = 10;
+    private int untilDisabled = 5;
 
     [Header("Invincibility Flash")]
     public Color flashColor;
