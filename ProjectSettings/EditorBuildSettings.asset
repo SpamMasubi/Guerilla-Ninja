@@ -18,6 +18,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Level 1-2.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
+    path: Assets/Scenes/Level 2-1.unity
+    guid: 459605d74ac22724f8941126df7096b0
+  - enabled: 1
+    path: Assets/Scenes/Level 2-2.unity
+    guid: f443811c0b84ef04daa17f005fe0cf58
+  - enabled: 1
+    path: Assets/Scenes/Cutscene.unity
+    guid: 5306f6de502be1a4693fd5866efd0615
+  - enabled: 1
     path: Assets/Scenes/TempScene.unity
     guid: 2f7d556f4b595f5499cbe8c7a5575153
   m_configObjects: {}

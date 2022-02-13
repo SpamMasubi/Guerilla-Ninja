@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class BossHealthBar : MonoBehaviour
 {
     public Image fillbar;
-    public float health = 30;
+    public float health = 25;
     public Text bossNameText;
 
     void Awake()

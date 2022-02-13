@@ -324,8 +324,8 @@ public class Player : MonoBehaviour
             animator.Rebind();
             if (!BossStart.startBoss)
             {
-                float minWidth = Camera.main.ScreenToWorldPoint(new Vector2(10, 10)).x;
-                transform.position = new Vector2(minWidth, 4f);
+                float minWidth = Camera.main.ScreenToWorldPoint(new Vector2(100, 100)).x;
+                transform.position = new Vector2(minWidth, 15f);
             }
             AudioManager.instance.PlaySFX("Respawn");
         }
@@ -348,8 +348,8 @@ public class Player : MonoBehaviour
         animator.Rebind();
         if (!BossStart.startBoss)
         {
-            float minWidth = Camera.main.ScreenToWorldPoint(new Vector2(10, 10)).x;
-            transform.position = new Vector2(minWidth, 4f);
+            float minWidth = Camera.main.ScreenToWorldPoint(new Vector2(100, 100)).x;
+            transform.position = new Vector2(minWidth, 15f);
         }
         AudioManager.instance.PlaySFX("Respawn");
     }

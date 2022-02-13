@@ -345,7 +345,7 @@ TextureImporter:
         width: 48
         height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -353,6 +353,90 @@ TextureImporter:
       bones: []
       spriteID: c16cf286c3518b6f0800000000000000
       internalID: -668761195474336228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Misc Item Extras_9
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 128
+        width: 3
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3a4b7ddec7fbe260800000000000000
+      internalID: 7128063303095110206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Misc Item Extras_10
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 128
+        width: 5
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57df603a352683490800000000000000
+      internalID: -7766349446043468427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Misc Item Extras_11
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 134
+        width: 33
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed1b53e553e9ba0b0800000000000000
+      internalID: -5716301349965680162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Misc Item Extras_12
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 134
+        width: 33
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c7da6f929c4db390800000000000000
+      internalID: -7800994786912315455
       vertices: []
       indices: 
       edges: []

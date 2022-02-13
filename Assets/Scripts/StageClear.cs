@@ -18,11 +18,10 @@ public class StageClear : MonoBehaviour
 
     public void LoadScene()
     {
-        SceneManager.LoadScene("TempScene");
+        SceneManager.LoadScene("Cutscene");
         BossVehicle.isDead = false;
         BossVehicle.stageClear = false;
         BossStart.startBoss = false;
         Destroy(FindObjectOfType<Canvas>().gameObject);
-        Destroy(FindObjectOfType<GameManager>().gameObject);
     }
 }

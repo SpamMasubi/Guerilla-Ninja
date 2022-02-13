@@ -154,7 +154,7 @@ public class CameraFollowEditor: Editor
                 //snap the camera view to the minimum values
                 Camera.main.transform.position = script.minValue;
             }
-            else if(GUILayout.Button("View Minimum"))
+            else if(GUILayout.Button("View Maximum"))
             {
                 //snap the camera view to the maximum values
                 Camera.main.transform.position = script.maxValue;

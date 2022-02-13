@@ -65,7 +65,7 @@
     <Compile Include="Assets\Scripts\ShootingOrAttack.cs" />
     <Compile Include="Assets\Scripts\EnemyAI.cs" />
     <Compile Include="Assets\Scripts\DontDestroyObject.cs" />
-    <Compile Include="Assets\Scripts\TempScene.cs" />
+    <Compile Include="Assets\Scripts\Cutscene.cs" />
     <Compile Include="Assets\Scripts\ShootingAction.cs" />
     <Compile Include="Assets\Scripts\SwitchWeapons.cs" />
     <Compile Include="Assets\Scripts\BossHealthBar.cs" />
@@ -88,6 +88,7 @@
     <Compile Include="Assets\Scripts\BossSpecial.cs" />
     <Compile Include="Assets\Scripts\BossStart.cs" />
     <Compile Include="Assets\Scripts\AudioManager.cs" />
+    <Compile Include="Assets\Scripts\LoadScene.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\Item.cs" />

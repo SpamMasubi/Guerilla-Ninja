@@ -32,6 +32,10 @@ public class BossVehicle : MonoBehaviour
 
     void Start()
     {
+        if(gameObject.name == "North Star AH-68")
+        {
+            GetComponent<AudioSource>().enabled = true;
+        }
         anim = GetComponent<Animator>();
         bossSprite = GetComponent<SpriteRenderer>();
     }
@@ -164,6 +168,11 @@ public class BossVehicle : MonoBehaviour
 
     public void BossDead()
     {
+        if (gameObject.name == "North Star AH-68")
+        {
+            GetComponent<AudioSource>().enabled = false;
+            GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+        }
         isDead = true;
         ExplosionEffect();
         Destroy(FindObjectOfType<PlayMusic>().gameObject);
@@ -184,7 +193,13 @@ public class BossVehicle : MonoBehaviour
 
     public void StageClear()
     {
+        ChapterIntro.chapters += 1;
         stageClear = true;
         AudioManager.instance.PlaySFX("Win");
+    }
+
+    public void DestroyBoss()
+    {
+        Destroy(gameObject);
     }
 }

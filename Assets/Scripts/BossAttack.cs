@@ -11,7 +11,7 @@ public class BossAttack : MonoBehaviour
     public GameObject player;
 
     public GameObject Explosion;
-    private int untilDisabled = 5;
+    public int untilDisabled = 5;
 
     [Header("Invincibility Flash")]
     public Color flashColor;
@@ -65,6 +65,7 @@ public class BossAttack : MonoBehaviour
                 if (untilDisabled == 0)
                 {
                     ExplosionEffect();
+                    isInvincible = false;
                     Destroy(gameObject);
                 }
             }
