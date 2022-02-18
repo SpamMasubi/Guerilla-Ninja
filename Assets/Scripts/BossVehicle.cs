@@ -14,6 +14,7 @@ public class BossVehicle : MonoBehaviour
     //Speed of movement or flying
     public float speed = 5;
     public string bossName;
+    public float bossHealth = 0f;
 
     public static bool isDead = false; //check if player is Dead
     public static bool stageClear = false;
@@ -32,10 +33,6 @@ public class BossVehicle : MonoBehaviour
 
     void Start()
     {
-        if(gameObject.name == "North Star AH-68")
-        {
-            GetComponent<AudioSource>().enabled = true;
-        }
         anim = GetComponent<Animator>();
         bossSprite = GetComponent<SpriteRenderer>();
     }
@@ -51,7 +48,7 @@ public class BossVehicle : MonoBehaviour
         GetComponent<PolygonCollider2D>().isTrigger = true;
 
         GameObject root = new GameObject(name + "_Root");
-        //Reset Position of Root to this enemy
+        //Reset Position of Root to this Boss
         root.transform.position = transform.position;
         //Set enemy object as child of root
         transform.SetParent(root.transform);
@@ -81,6 +78,7 @@ public class BossVehicle : MonoBehaviour
         if (BossStart.startBoss)
         {
             MoveToNextPoint();
+            gameObject.SetActive(true);
         }
     }
 
@@ -136,7 +134,7 @@ public class BossVehicle : MonoBehaviour
                     if (SwitchWeapons.shuriken)
                     {
                         StartCoroutine(InvincibilityFlash());
-                        FindObjectOfType<BossHealthBar>().LoseHealth(1);
+                        FindObjectOfType<BossHealthBar>().LoseHealth(2);
                         AudioManager.instance.PlaySFX("bossDamage");
                     }
                     else if (SwitchWeapons.handgun)
@@ -155,7 +153,7 @@ public class BossVehicle : MonoBehaviour
                 else if(!isInvincible && collision.tag == "playerAttack")
                 {
                     StartCoroutine(InvincibilityFlash());
-                    FindObjectOfType<BossHealthBar>().LoseHealth(2);
+                    FindObjectOfType<BossHealthBar>().LoseHealth(1);
                     AudioManager.instance.PlaySFX("bossDamage");
                 }
                 else
@@ -168,9 +166,10 @@ public class BossVehicle : MonoBehaviour
 
     public void BossDead()
     {
-        if (gameObject.name == "North Star AH-68")
+        if (gameObject.name == "North Star Army AH (Boss)")
         {
             GetComponent<AudioSource>().enabled = false;
+            GetComponent<Rigidbody2D>().gravityScale = 0.01f;
             GetComponent<Rigidbody2D>().velocity = Vector2.zero;
         }
         isDead = true;
@@ -196,10 +195,5 @@ public class BossVehicle : MonoBehaviour
         ChapterIntro.chapters += 1;
         stageClear = true;
         AudioManager.instance.PlaySFX("Win");
-    }
-
-    public void DestroyBoss()
-    {
-        Destroy(gameObject);
     }
 }

@@ -100,31 +100,34 @@ public class EnemyShoot : MonoBehaviour
             return;
         }
 
-        if (CanSeePlayer(agroRange) && !Player.isDead)
+        if (!isDead)
         {
-            //agro player
-            isAgros = true;
-
-            if (distToPlayer <= 10)
+            if (CanSeePlayer(agroRange) && !Player.isDead)
             {
-                isShooting = true;
+                //agro player
+                isAgros = true;
+
+                if (distToPlayer <= 10)
+                {
+                    isShooting = true;
+                }
+                else
+                {
+                    isShooting = false;
+                }
+
             }
             else
             {
-                isShooting = false;
+                StopShootingPlayer();
+                MoveToNextPoint();
             }
 
-        }
-        else
-        {
-            StopShootingPlayer();
-            MoveToNextPoint();
-        }
-
-        if (isAgros && isShooting)
-        {
-            anim.SetBool("Shoot", true);
-            shootPlayer();
+            if (isAgros && isShooting)
+            {
+                anim.SetBool("Shoot", true);
+                shootPlayer();
+            }
         }
 
     }

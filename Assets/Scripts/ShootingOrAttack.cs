@@ -59,4 +59,9 @@ public class ShootingOrAttack : MonoBehaviour
         GameObject si = Instantiate(shootingItem[value], shootingPoint);
         si.transform.parent = null;
     }
+
+    public void ResetAttack()
+    {
+        isAttack = false;
+    }
 }

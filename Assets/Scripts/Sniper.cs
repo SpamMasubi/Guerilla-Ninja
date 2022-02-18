@@ -55,29 +55,33 @@ public class Sniper : MonoBehaviour
             return;
         }
 
-        if (CanSeePlayer(agroRange))
+        if (!isDead)
         {
-            //agro player
-            isAgros = true;
-
-            if (distToPlayer <= 15)
+            if (CanSeePlayer(agroRange))
             {
-                isAttacking = true;
+                //agro player
+                isAgros = true;
+
+                if (distToPlayer <= 15)
+                {
+                    isAttacking = true;
+                }
+                else
+                {
+                    isAttacking = false;
+                }
+
             }
             else
             {
-                isAttacking = false;
+                StopLookingForPlayer();
             }
 
-        }
-        else
-        {
-            StopLookingForPlayer();
-        }
 
-        if (isAgros && isAttacking)
-        {
-            attackPlayer();
+            if (isAgros && isAttacking)
+            {
+                attackPlayer();
+            }
         }
     }
 

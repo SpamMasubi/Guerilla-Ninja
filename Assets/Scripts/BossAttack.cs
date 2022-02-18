@@ -34,7 +34,7 @@ public class BossAttack : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (BossStart.startBoss && untilDisabled != 0)
+        if (BossStart.startBoss && (untilDisabled != 0 || !BossVehicle.isDead))
         {
             float distToPlayer = Vector2.Distance(transform.position, player.transform.position);
             if (distToPlayer > agroRange || distToPlayer < agroRange)

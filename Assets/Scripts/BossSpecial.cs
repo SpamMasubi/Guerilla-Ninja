@@ -4,24 +4,25 @@ using UnityEngine;
 
 public class BossSpecial : MonoBehaviour
 {
-    public Transform lazerGun;
-    public GameObject lazerBullet;
+    public Transform specialGun;
+    public GameObject specialBullet;
     float attackTimer = 0f;
+    public float timeOfAttack;
 
     // Start is called before the first frame update
     void Start()
     {
-        lazerGun = this.gameObject.transform;
+        specialGun = this.gameObject.transform;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (BossStart.startBoss)
+        if (BossStart.startBoss && !BossVehicle.isDead)
         {
             if (attackTimer <= 0f)
             {
-                attackTimer = 7.0f;
+                attackTimer = timeOfAttack;
             }
             else
             {
@@ -30,7 +31,7 @@ public class BossSpecial : MonoBehaviour
                     attackTimer -= Time.deltaTime;
                     if (attackTimer <= 0f)
                     {
-                        Instantiate(lazerBullet, lazerGun.position, lazerGun.rotation);
+                        Instantiate(specialBullet, specialGun.position, specialGun.rotation);
                     }
                 }
             }

@@ -12,6 +12,11 @@ public class BossStart : MonoBehaviour
     {
         if(collision.tag == "Player")
         {
+            if(FindObjectOfType<BossVehicle>().name == "North Star Army AH (Boss)")
+            {
+                FindObjectOfType<BossVehicle>().GetComponent<AudioSource>().enabled = true;
+                FindObjectOfType<BossVehicle>().GetComponent<Animator>().enabled = true;
+            }
             startBoss = true;
             exitClosed.SetActive(true);
             FindObjectOfType<Canvas>().gameObject.transform.GetChild(4).gameObject.SetActive(true);

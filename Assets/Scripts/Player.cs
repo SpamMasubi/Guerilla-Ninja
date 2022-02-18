@@ -270,20 +270,32 @@ public class Player : MonoBehaviour
         isInvincible = false;
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerStay2D(Collider2D collision)
     {
-        if (!isInvincible && !isDead && !ShootingOrAttack.isAttack && !EnemyAI.isDead)
+        if (!isInvincible && !isDead && !ShootingOrAttack.isAttack && !EnemyAI.isDead && !EnemyShoot.isDead && !Sniper.isDead)
         {
-            //if player collides with trap or enemy
-            if (collision.tag == "Trap" || collision.tag == "Enemy" || collision.tag == "enemyProjectile")
+            //if player collides with enemy
+            if (collision.tag == "Enemy")
             {
                 isHurt = true;
                 StartCoroutine(InvincibilityFlash());
-                if (collision.tag == "Enemy")
-                {
-                    FindObjectOfType<Healthbar>().LoseHealth(2);
-                }
+                //Play Sound and animation
+                AudioManager.instance.PlaySFX("hurt");
+                animator.SetTrigger("Hurt");
+                FindObjectOfType<Healthbar>().LoseHealth(2);
+            }
+        }
+    }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (!isInvincible && !isDead && !ShootingOrAttack.isAttack)
+        {
+            //if player collides with trap or enemyProjectiles
+            if (collision.tag == "Trap" || collision.tag == "enemyProjectile")
+            {
+                isHurt = true;
+                StartCoroutine(InvincibilityFlash());
                 //Play Sound and animation
                 AudioManager.instance.PlaySFX("hurt");
                 animator.SetTrigger("Hurt");

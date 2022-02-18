@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour
 {
     private AudioSource playGame;
+    private bool hasStarted;
 
     void Start()
     {
@@ -14,8 +15,12 @@ public class MainMenu : MonoBehaviour
 
     public void PlayGame()
     {
-        playGame.Play();
-        Invoke("LoadScene", 3f);
+        if (!hasStarted)
+        {
+            hasStarted = true;
+            playGame.Play();
+            Invoke("LoadScene", 3f);
+        }
     }
 
     public void QuitGame()
@@ -25,6 +30,7 @@ public class MainMenu : MonoBehaviour
 
     void LoadScene()
     {
+        hasStarted = false;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
    
