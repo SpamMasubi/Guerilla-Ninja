@@ -6,6 +6,7 @@ using System;
 public class Player : MonoBehaviour
 {
     public static event Action HasLanded;
+    public Transform respawn;
 
     public float speed = 1; //player speed
     public float jumpPower = 150;
@@ -336,8 +337,7 @@ public class Player : MonoBehaviour
             animator.Rebind();
             if (!BossStart.startBoss)
             {
-                float minWidth = Camera.main.ScreenToWorldPoint(new Vector2(100, 100)).x;
-                transform.position = new Vector2(minWidth, 15f);
+                transform.position = new Vector2(respawn.transform.position.x,respawn.transform.position.y);
             }
             AudioManager.instance.PlaySFX("Respawn");
         }
@@ -360,8 +360,7 @@ public class Player : MonoBehaviour
         animator.Rebind();
         if (!BossStart.startBoss)
         {
-            float minWidth = Camera.main.ScreenToWorldPoint(new Vector2(100, 100)).x;
-            transform.position = new Vector2(minWidth, 15f);
+            transform.position = new Vector2(respawn.transform.position.x, respawn.transform.position.y);
         }
         AudioManager.instance.PlaySFX("Respawn");
     }

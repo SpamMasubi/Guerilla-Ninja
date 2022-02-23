@@ -1733,7 +1733,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f569939415046334e84c55a8eb788ba5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lives: 4
+  lives: 3
   health: 100
   scores: 0
   shurikenCount: 3
