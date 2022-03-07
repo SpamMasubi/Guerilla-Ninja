@@ -78,7 +78,6 @@ public class BossVehicle : MonoBehaviour
         if (BossStart.startBoss)
         {
             MoveToNextPoint();
-            gameObject.SetActive(true);
         }
     }
 
@@ -169,7 +168,7 @@ public class BossVehicle : MonoBehaviour
         if (gameObject.name == "North Star Army AH (Boss)")
         {
             GetComponent<AudioSource>().enabled = false;
-            GetComponent<Rigidbody2D>().gravityScale = 0.01f;
+            GetComponent<Rigidbody2D>().gravityScale = 0.03f;
             GetComponent<Rigidbody2D>().velocity = Vector2.zero;
         }
         isDead = true;

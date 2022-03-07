@@ -29,6 +29,14 @@ public class ChapterIntro : MonoBehaviour
                 chapterIntro.text = "Mission 2";
                 chapterText.text = "No Ordinary War";
                 break;
+            case 3:
+                chapterIntro.text = "Mission 3";
+                chapterText.text = "Beginning of the End";
+                break;
+            case 4:
+                chapterIntro.text = "Final Mission";
+                chapterText.text = "The Truth";
+                break;
             default:
                 break;
         }
@@ -62,6 +70,12 @@ public class ChapterIntro : MonoBehaviour
                 break;
             case 2:
                 SceneManager.LoadScene(4);
+                break;
+            case 3:
+                SceneManager.LoadScene(6);
+                break;
+            case 4:
+                SceneManager.LoadScene(8);
                 break;
             default:
                 break;

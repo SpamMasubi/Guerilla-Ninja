@@ -16,6 +16,9 @@ public class BossStart : MonoBehaviour
             {
                 FindObjectOfType<BossVehicle>().GetComponent<AudioSource>().enabled = true;
                 FindObjectOfType<BossVehicle>().GetComponent<Animator>().enabled = true;
+            }else if (FindObjectOfType<BossVehicle>().name == "North Star Army Tank (Boss)")
+            {
+                FindObjectOfType<BossVehicle>().GetComponent<Animator>().enabled = true;
             }
             startBoss = true;
             exitClosed.SetActive(true);

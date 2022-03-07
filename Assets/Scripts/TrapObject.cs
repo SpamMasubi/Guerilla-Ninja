@@ -16,10 +16,6 @@ public class TrapObject : MonoBehaviour
         {
             GetComponent<Animator>().SetBool("TrapTrigger", true);
             AudioManager.instance.PlaySFX("explosion");
-            if (!Player.isInvincible)
-            {
-                FindObjectOfType<Healthbar>().LoseHealth(5);
-            }
         }
     }
 

@@ -2087,7 +2087,7 @@ MonoBehaviour:
   smoothFactor: 8
   followFloor: 0
   minValue: {x: 1.81, y: 1.52, z: -10}
-  maxValue: {x: 323.3, y: 13.9, z: -10}
+  maxValue: {x: 304.33, y: 13.7, z: -10}
   setupComplete: 1
   ss: 0
 --- !u!20 &519420031

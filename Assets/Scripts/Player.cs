@@ -53,6 +53,7 @@ public class Player : MonoBehaviour
     void Awake()
     {
         availableJumps = totalJumps;
+        isInvincible = false;
 
         rb2d = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
@@ -276,7 +277,7 @@ public class Player : MonoBehaviour
         if (!isInvincible && !isDead && !ShootingOrAttack.isAttack && !EnemyAI.isDead && !EnemyShoot.isDead && !Sniper.isDead)
         {
             //if player collides with enemy
-            if (collision.tag == "Enemy")
+            if (collision.tag == "Enemy" || collision.tag == "Spikes")
             {
                 isHurt = true;
                 StartCoroutine(InvincibilityFlash());
@@ -295,6 +296,9 @@ public class Player : MonoBehaviour
             //if player collides with trap or enemyProjectiles
             if (collision.tag == "Trap" || collision.tag == "enemyProjectile")
             {
+                if(collision.tag == "Trap"){
+                    FindObjectOfType<Healthbar>().LoseHealth(5);
+                }
                 isHurt = true;
                 StartCoroutine(InvincibilityFlash());
                 //Play Sound and animation

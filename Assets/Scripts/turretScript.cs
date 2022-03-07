@@ -47,7 +47,6 @@ public class turretScript : MonoBehaviour
                     if (Detected == false)
                     {
                         Detected = true;
-                        Debug.Log("YOUVE BEEN SPOTTED " + Detected);
                     }
                 }
             }
@@ -56,13 +55,19 @@ public class turretScript : MonoBehaviour
                 if (Detected == true)
                 {
                     Detected = false;
-                    Debug.Log("Oh He gone " + Detected);
                 }
             }
 
             if (Detected == true)
             {
-                gun.transform.up = -Direction;
+                if (FindObjectOfType<BossVehicle>().name == "North Star Army Tank (Boss)")
+                {
+                    gun.transform.right = -Direction;
+                }
+                else
+                {
+                    gun.transform.up = -Direction;
+                }
                 if (Time.time > nextTimeToFire)
                 {
                     nextTimeToFire = Time.time + 1 / FireRate;
