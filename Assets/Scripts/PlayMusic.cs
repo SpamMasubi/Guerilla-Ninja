@@ -17,8 +17,8 @@ public class PlayMusic : MonoBehaviour
 
     private void Update()
     {
-        /*
-        if (PauseMenu.GameIsPaused)
+        
+        if (PauseMenu.isPause)
         {
             audioS.Pause();
         }
@@ -26,7 +26,6 @@ public class PlayMusic : MonoBehaviour
         {
             audioS.UnPause();
         }
-        */
     }
 
     public void StopSong()

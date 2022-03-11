@@ -1,15 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class GameOverUI : MonoBehaviour
 {
     public GameObject gameOverUIMain;
     public GameObject gameOverOptionPanel;
     public static bool retry;
+    public GameObject retryButton;
+
     private int delayEnable = 5;
 
-    // Update is called once per frame
     void Update()
     {
         if (Player.gameOver)
@@ -35,6 +37,8 @@ public class GameOverUI : MonoBehaviour
     {
         Player.isDead = false;
         Player.gameOver = false;
+        gameOverUIMain.SetActive(false);
+        gameOverOptionPanel.SetActive(false);
     }
 
     public void Retry()

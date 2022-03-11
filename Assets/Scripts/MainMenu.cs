@@ -14,7 +14,7 @@ public class MainMenu : MonoBehaviour
 
     void Start()
     {
-        playGame = GetComponent<AudioSource>();
+        playGame = GetComponentInChildren<AudioSource>();
 
         //Clear selected object
         EventSystem.current.SetSelectedGameObject(null);
