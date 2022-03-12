@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 4466999803526155163}
   m_Layer: 7
   m_Name: Handgun ammo
-  m_TagString: Untagged
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -73,7 +73,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1982702429
-  m_SortingLayer: 4
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: -2694626170927348558, guid: d58f56c8ea8c7ee4eb45760b4514b526, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

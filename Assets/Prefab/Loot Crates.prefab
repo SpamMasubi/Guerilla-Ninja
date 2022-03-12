@@ -46,7 +46,7 @@ GameObject:
   - component: {fileID: 6674174979938054257}
   m_Layer: 0
   m_Name: Loot Crates
-  m_TagString: Untagged
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -104,7 +104,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1386501047
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: -8375689243282173893, guid: 5ae76eca823aac34ab68c7d9b0691714, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -276,11 +276,11 @@ MonoBehaviour:
     minSpawnProb: 0
     maxSpawnProb: 0
   - item: {fileID: 4466999803526155162, guid: 511f727097a22ef4898c7c146e9617d9, type: 3}
-    spawnRate: 30
+    spawnRate: 40
     minSpawnProb: 0
     maxSpawnProb: 0
   - item: {fileID: 4804127678734873861, guid: c1c608aabd3544a44bdd891c014110e8, type: 3}
-    spawnRate: 20
+    spawnRate: 10
     minSpawnProb: 0
     maxSpawnProb: 0
   dropPoint: {fileID: 6674174978738003917}
