@@ -41,10 +41,13 @@ public class HomingMissile : MonoBehaviour
         {
             Instantiate(explosionEffect, transform.position, transform.rotation);
             FindObjectOfType<Healthbar>().LoseHealth(damage);
+            Instantiate(explosionEffect, transform.position, transform.rotation);
             Destroy(gameObject);
         }
-
-        Instantiate(explosionEffect, transform.position, transform.rotation);
-        Destroy(gameObject);
+        else if (collision.tag == "playerProjectiles" || collision.tag == "playerAttack")
+        {
+            Instantiate(explosionEffect, transform.position, transform.rotation);
+            Destroy(gameObject);
+        }
     }
 }

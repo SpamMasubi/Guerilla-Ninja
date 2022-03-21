@@ -9,7 +9,7 @@ public class StageClear : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (BossVehicle.stageClear)
+        if (BossVehicle.stageClear || FinalBoss.stageClear)
         {
             stageClearUI.SetActive(true);
             Invoke("LoadScene", 6f);
@@ -22,6 +22,8 @@ public class StageClear : MonoBehaviour
         BossVehicle.isDead = false;
         BossVehicle.stageClear = false;
         BossStart.startBoss = false;
+        FinalBoss.stageClear = false;
+        FinalBoss.isDead = false;
         Destroy(FindObjectOfType<Canvas>().gameObject);
     }
 }

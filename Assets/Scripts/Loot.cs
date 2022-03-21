@@ -45,7 +45,7 @@ public class Loot : MonoBehaviour
     {
         if (!isOpen)
         {
-            if ((Input.GetKey(KeyCode.Z) || Input.GetKey(KeyCode.K)) && playerInZone)
+            if (Input.GetButton("Fire1") && playerInZone)
             {
                 anim.SetTrigger("Open");
                 sfx.Play();

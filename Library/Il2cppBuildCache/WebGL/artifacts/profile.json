@@ -2,53 +2,53 @@
 "instructions_readme": "1) Open Chrome, 2) go to chrome://tracing, 3) click Load, 4) navigate to this file.",
 "traceEvents":[
 { "cat":"", "pid":1, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"tundra" } }
-,{ "pid":1, "tid":0, "ts":1638014814, "dur":308, "ph":"X", "name": "DriverCheckDagSignatures",  "args": { "durationMS":0, "detail":"" }}
-,{ "pid":1, "tid":0, "ts":1638015122, "dur":63872, "ph":"X", "name": "DriverInitData",  "args": { "durationMS":64, "detail":"" }}
-,{ "pid":1, "tid":0, "ts":1638079112, "dur":16, "ph":"X", "name": "Tundra",  "args": { "durationMS":0, "detail":"PrepareNodes" }}
-,{ "pid":1, "tid":0, "ts":1638079434, "dur":51, "ph":"X", "name": "Tundra",  "args": { "durationMS":0, "detail":"RemoveStaleOutputs" }}
-,{ "pid":1, "tid":0, "ts":1638079487, "dur":546, "ph":"X", "name": "Tundra",  "args": { "durationMS":1, "detail":"BuildQueueInit" }}
-,{ "pid":1, "tid":0, "ts":1696466294, "dur":27912, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":28, "detail":"" }}
-,{ "pid":1, "tid":0, "ts":1696494589, "dur":10, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
-,{ "pid":1, "tid":0, "ts":1696494640, "dur":9, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
-,{ "pid":1, "tid":0, "ts":1696494674, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
-,{ "pid":1, "tid":0, "ts":1696494684, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
-,{ "pid":1, "tid":0, "ts":1696494692, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
-,{ "pid":1, "tid":0, "ts":1696494701, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
-,{ "pid":1, "tid":0, "ts":1696494709, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
-,{ "pid":1, "tid":0, "ts":1696494719, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
-,{ "pid":1, "tid":0, "ts":1696494727, "dur":19, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
-,{ "pid":1, "tid":0, "ts":1696494753, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
-,{ "pid":1, "tid":0, "ts":1696494762, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
-,{ "pid":1, "tid":0, "ts":1696494771, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "durationMS":0, "detail":"" }}
-,{ "pid":1, "tid":0, "ts":1696494775, "dur":66880, "ph":"X", "name": "Tundra",  "args": { "durationMS":67, "detail":"Write AllBuiltNodes" }}
-,{ "pid":1, "tid":1, "ts":1638080179, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":0, "detail":"WriteResponseFile artifacts/rsp/11082545395935442716.rsp" }}
-,{ "pid":1, "tid":1, "ts":1638080309, "dur":8153, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":8, "detail":"Il2Cpp E:/My Games/Unity Projects/Guerilla Ninja/Library/Il2cppBuildCache/WebGL/Native/build.bc" }}
-,{ "pid":1, "tid":1, "ts":1638674642, "dur":57764133, "ph":"X", "name": "Il2Cpp",  "args": { "durationMS":57764, "detail":"E:/My Games/Unity Projects/Guerilla Ninja/Library/Il2cppBuildCache/WebGL/Native/build.bc" }}
-,{ "pid":1, "tid":1, "ts":1696466184, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":0, "detail":"all_tundra_nodes" }}
-,{ "pid":1, "tid":1, "ts":1696466187, "dur":123, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":0, "detail":"" }}
-,{ "pid":1, "tid":1, "ts":1696466310, "dur":26965, "ph":"X", "name": "Exiting",  "args": { "durationMS":27, "detail":"BuildLoop" }}
-,{ "pid":1, "tid":2, "ts":1638080544, "dur":58385754, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":58386, "detail":"" }}
-,{ "pid":1, "tid":2, "ts":1696466303, "dur":26957, "ph":"X", "name": "Exiting",  "args": { "durationMS":27, "detail":"BuildLoop" }}
-,{ "pid":1, "tid":3, "ts":1638080324, "dur":58385977, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":58386, "detail":"" }}
-,{ "pid":1, "tid":3, "ts":1696466301, "dur":26975, "ph":"X", "name": "Exiting",  "args": { "durationMS":27, "detail":"BuildLoop" }}
-,{ "pid":1, "tid":4, "ts":1638080436, "dur":58385869, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":58386, "detail":"" }}
-,{ "pid":1, "tid":4, "ts":1696466307, "dur":26959, "ph":"X", "name": "Exiting",  "args": { "durationMS":27, "detail":"BuildLoop" }}
-,{ "pid":1, "tid":5, "ts":1638080602, "dur":58385700, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":58386, "detail":"" }}
-,{ "pid":1, "tid":5, "ts":1696466302, "dur":26991, "ph":"X", "name": "Exiting",  "args": { "durationMS":27, "detail":"BuildLoop" }}
-,{ "pid":1, "tid":6, "ts":1638080663, "dur":58385641, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":58386, "detail":"" }}
-,{ "pid":1, "tid":6, "ts":1696466306, "dur":26972, "ph":"X", "name": "Exiting",  "args": { "durationMS":27, "detail":"BuildLoop" }}
-,{ "pid":1, "tid":7, "ts":1638080699, "dur":58385608, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":58386, "detail":"" }}
-,{ "pid":1, "tid":7, "ts":1696466308, "dur":26952, "ph":"X", "name": "Exiting",  "args": { "durationMS":27, "detail":"BuildLoop" }}
-,{ "pid":1, "tid":8, "ts":1638080723, "dur":58385571, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":58386, "detail":"" }}
-,{ "pid":1, "tid":8, "ts":1696466294, "dur":26983, "ph":"X", "name": "Exiting",  "args": { "durationMS":27, "detail":"BuildLoop" }}
-,{ "pid":1, "tid":9, "ts":1638080774, "dur":58385524, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":58386, "detail":"" }}
-,{ "pid":1, "tid":9, "ts":1696466299, "dur":26978, "ph":"X", "name": "Exiting",  "args": { "durationMS":27, "detail":"BuildLoop" }}
-,{ "pid":1, "tid":10, "ts":1638080797, "dur":58385499, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":58385, "detail":"" }}
-,{ "pid":1, "tid":10, "ts":1696466298, "dur":26997, "ph":"X", "name": "Exiting",  "args": { "durationMS":27, "detail":"BuildLoop" }}
-,{ "pid":1, "tid":11, "ts":1638080859, "dur":58385443, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":58385, "detail":"" }}
-,{ "pid":1, "tid":11, "ts":1696466303, "dur":26963, "ph":"X", "name": "Exiting",  "args": { "durationMS":27, "detail":"BuildLoop" }}
-,{ "pid":1, "tid":12, "ts":1638080878, "dur":58385417, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":58385, "detail":"" }}
-,{ "pid":1, "tid":12, "ts":1696466296, "dur":26996, "ph":"X", "name": "Exiting",  "args": { "durationMS":27, "detail":"BuildLoop" }}
+,{ "pid":1, "tid":0, "ts":64022671342, "dur":385, "ph":"X", "name": "DriverCheckDagSignatures",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":1, "tid":0, "ts":64022671727, "dur":67108, "ph":"X", "name": "DriverInitData",  "args": { "durationMS":67, "detail":"" }}
+,{ "pid":1, "tid":0, "ts":64022739082, "dur":45, "ph":"X", "name": "Tundra",  "args": { "durationMS":0, "detail":"PrepareNodes" }}
+,{ "pid":1, "tid":0, "ts":64022739135, "dur":121, "ph":"X", "name": "Tundra",  "args": { "durationMS":0, "detail":"RemoveStaleOutputs" }}
+,{ "pid":1, "tid":0, "ts":64022739264, "dur":1192, "ph":"X", "name": "Tundra",  "args": { "durationMS":1, "detail":"BuildQueueInit" }}
+,{ "pid":1, "tid":0, "ts":64023000632, "dur":16689, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":17, "detail":"" }}
+,{ "pid":1, "tid":0, "ts":64023017329, "dur":572, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":1, "detail":"" }}
+,{ "pid":1, "tid":0, "ts":64023017918, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":1, "tid":0, "ts":64023017953, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":1, "tid":0, "ts":64023017972, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":1, "tid":0, "ts":64023017979, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":1, "tid":0, "ts":64023017985, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":1, "tid":0, "ts":64023017990, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":1, "tid":0, "ts":64023017994, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":1, "tid":0, "ts":64023017999, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":1, "tid":0, "ts":64023018004, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":1, "tid":0, "ts":64023018032, "dur":31, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":1, "tid":0, "ts":64023018067, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":1, "tid":0, "ts":64023018089, "dur":2836, "ph":"X", "name": "Tundra",  "args": { "durationMS":3, "detail":"Write AllBuiltNodes" }}
+,{ "pid":1, "tid":1, "ts":64022740335, "dur":260301, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":260, "detail":"" }}
+,{ "pid":1, "tid":1, "ts":64023000636, "dur":16391, "ph":"X", "name": "Exiting",  "args": { "durationMS":16, "detail":"BuildLoop" }}
+,{ "pid":1, "tid":2, "ts":64022740394, "dur":87, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":1, "tid":2, "ts":64022740498, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":0, "detail":"WriteResponseFile artifacts/rsp/11082545395935442716.rsp" }}
+,{ "pid":1, "tid":2, "ts":64022740678, "dur":9082, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":9, "detail":"Il2Cpp E:/My Games/Unity Projects/Guerilla Ninja/Library/Il2cppBuildCache/WebGL/Native/build.bc" }}
+,{ "pid":1, "tid":2, "ts":64023000585, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":0, "detail":"all_tundra_nodes" }}
+,{ "pid":1, "tid":2, "ts":64023000609, "dur":26, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":1, "tid":2, "ts":64023000635, "dur":16372, "ph":"X", "name": "Exiting",  "args": { "durationMS":16, "detail":"BuildLoop" }}
+,{ "pid":1, "tid":3, "ts":64022740589, "dur":260043, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":260, "detail":"" }}
+,{ "pid":1, "tid":3, "ts":64023000633, "dur":16379, "ph":"X", "name": "Exiting",  "args": { "durationMS":16, "detail":"BuildLoop" }}
+,{ "pid":1, "tid":4, "ts":64022740660, "dur":259974, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":260, "detail":"" }}
+,{ "pid":1, "tid":4, "ts":64023000636, "dur":16337, "ph":"X", "name": "Exiting",  "args": { "durationMS":16, "detail":"BuildLoop" }}
+,{ "pid":1, "tid":5, "ts":64022740689, "dur":259945, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":260, "detail":"" }}
+,{ "pid":1, "tid":5, "ts":64023000633, "dur":16341, "ph":"X", "name": "Exiting",  "args": { "durationMS":16, "detail":"BuildLoop" }}
+,{ "pid":1, "tid":6, "ts":64022740792, "dur":259845, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":260, "detail":"" }}
+,{ "pid":1, "tid":6, "ts":64023000638, "dur":16335, "ph":"X", "name": "Exiting",  "args": { "durationMS":16, "detail":"BuildLoop" }}
+,{ "pid":1, "tid":7, "ts":64022740930, "dur":259702, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":260, "detail":"" }}
+,{ "pid":1, "tid":7, "ts":64023000637, "dur":16371, "ph":"X", "name": "Exiting",  "args": { "durationMS":16, "detail":"BuildLoop" }}
+,{ "pid":1, "tid":8, "ts":64022740959, "dur":259678, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":260, "detail":"" }}
+,{ "pid":1, "tid":8, "ts":64023000637, "dur":16336, "ph":"X", "name": "Exiting",  "args": { "durationMS":16, "detail":"BuildLoop" }}
+,{ "pid":1, "tid":9, "ts":64022741038, "dur":259603, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":260, "detail":"" }}
+,{ "pid":1, "tid":9, "ts":64023000642, "dur":16331, "ph":"X", "name": "Exiting",  "args": { "durationMS":16, "detail":"BuildLoop" }}
+,{ "pid":1, "tid":10, "ts":64022741187, "dur":259451, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":259, "detail":"" }}
+,{ "pid":1, "tid":10, "ts":64023000640, "dur":16333, "ph":"X", "name": "Exiting",  "args": { "durationMS":16, "detail":"BuildLoop" }}
+,{ "pid":1, "tid":11, "ts":64022741304, "dur":259342, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":259, "detail":"" }}
+,{ "pid":1, "tid":11, "ts":64023000646, "dur":16327, "ph":"X", "name": "Exiting",  "args": { "durationMS":16, "detail":"BuildLoop" }}
+,{ "pid":1, "tid":12, "ts":64022741457, "dur":259185, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":259, "detail":"" }}
+,{ "pid":1, "tid":12, "ts":64023000642, "dur":16332, "ph":"X", "name": "Exiting",  "args": { "durationMS":16, "detail":"BuildLoop" }}
 
 ]
 }

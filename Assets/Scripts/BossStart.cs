@@ -12,13 +12,25 @@ public class BossStart : MonoBehaviour
     {
         if(collision.tag == "Player")
         {
-            if(FindObjectOfType<BossVehicle>().name == "North Star Army AH (Boss)")
+            if (FindObjectOfType<BossVehicle>() != null)
             {
-                FindObjectOfType<BossVehicle>().GetComponent<AudioSource>().enabled = true;
-                FindObjectOfType<BossVehicle>().GetComponent<Animator>().enabled = true;
-            }else if (FindObjectOfType<BossVehicle>().name == "North Star Army Tank (Boss)")
+                if (FindObjectOfType<BossVehicle>().name == "North Star Army AH (Boss)")
+                {
+                    FindObjectOfType<BossVehicle>().GetComponent<AudioSource>().enabled = true;
+                    FindObjectOfType<BossVehicle>().GetComponent<Animator>().enabled = true;
+                }
+                else if (FindObjectOfType<BossVehicle>().name == "North Star Army Tank (Boss)")
+                {
+                    FindObjectOfType<BossVehicle>().GetComponent<Animator>().enabled = true;
+                }
+            }
+            else if (FindObjectOfType<FinalBoss>() != null)
             {
-                FindObjectOfType<BossVehicle>().GetComponent<Animator>().enabled = true;
+                if (FindObjectOfType<FinalBoss>().name == "Final Boss")
+                {
+                    FindObjectOfType<FinalBoss>().GetComponent<Animator>().enabled = true;
+                    FindObjectOfType<FinalBoss>().GetComponent<AudioSource>().Play();
+                }
             }
             startBoss = true;
             exitClosed.SetActive(true);

@@ -16,7 +16,7 @@ public class PauseMenu : MonoBehaviour
     {
         if (!BossVehicle.isDead)
         {
-            if (Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.P))
+            if (Input.GetButtonDown("Enable Debug Button 1") || Input.GetKeyDown(KeyCode.P))
             {
                 PauseUnPause();
             }

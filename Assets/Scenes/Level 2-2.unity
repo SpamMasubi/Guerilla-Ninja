@@ -1501,7 +1501,7 @@ MonoBehaviour:
   - {fileID: 1236259327}
   - {fileID: 2051200802}
   platform: {fileID: 321781205}
-  moveSpeed: 2
+  moveSpeed: 5
 --- !u!1001 &334216236
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3275,71 +3275,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 22
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &719919369
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 719919371}
-  - component: {fileID: 719919370}
-  m_Layer: 0
-  m_Name: AudioManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &719919370
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 719919369}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0937f00774658ca438f9895a67484922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  jump: {fileID: 8300000, guid: 678ae31fcb503ca49983d40b451b95cc, type: 3}
-  run: {fileID: 8300000, guid: 7f6daf75cf768924e9f5faf0a139cbac, type: 3}
-  attack: {fileID: 8300000, guid: ebd12e134e0f2d24e8d606549a4accab, type: 3}
-  points: {fileID: 8300000, guid: 2d8b3e5b46563964d8c4c43288cd28e0, type: 3}
-  shootAR: {fileID: 8300000, guid: 3d0ad4d4a99832345b581832cae102a2, type: 3}
-  shootHandgun: {fileID: 8300000, guid: ffd9b2104fa62a449be92872eb54467c, type: 3}
-  shootSniper: {fileID: 8300000, guid: 2a4663caa788e784dab330f9edb0d5ae, type: 3}
-  hurt: {fileID: 8300000, guid: 17b226a85396b2d47aef2bea69a65313, type: 3}
-  dead: {fileID: 8300000, guid: fc45d8753e2b8464ba557007271518af, type: 3}
-  respawn: {fileID: 8300000, guid: 5dc9d2bcefecf41458585127dedbfcab, type: 3}
-  throwing: {fileID: 8300000, guid: c53a1d3d71a248f42873d51e1da97eb2, type: 3}
-  explosion: {fileID: 8300000, guid: 05a2f58dd09dd2c4f8ec7116f0a6e958, type: 3}
-  enemyHit: {fileID: 8300000, guid: 960b0cff35813664d850d9e4d18abe9e, type: 3}
-  health: {fileID: 8300000, guid: 28aa51f66cbf6e14a974ac0f0f64c39d, type: 3}
-  ammo: {fileID: 8300000, guid: 7c7b1ce0c7696a049acd5298c5d364c7, type: 3}
-  life: {fileID: 8300000, guid: 38c435051b86a7d41ad1e6bb18a5db86, type: 3}
-  switchWeapon: {fileID: 8300000, guid: 99b9756c7cc801d4da7e91dcb0d35a91, type: 3}
-  bossHit: {fileID: 8300000, guid: 379fb9a84229e1843a9a042e5a583c29, type: 3}
-  bossDamage: {fileID: 8300000, guid: ee7e81b17dc42114abd0467658c253ee, type: 3}
-  win: {fileID: 8300000, guid: 3e8e837a251139849b301ded4d063a5a, type: 3}
-  music: {fileID: 8300000, guid: 3479a0cc9f87fdf4aa5ce2b83427eec5, type: 3}
-  soundObject: {fileID: 4079872877276035122, guid: 3e983b404fe68ab48aa22e45f0b5a643, type: 3}
---- !u!4 &719919371
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 719919369}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &728638145
 PrefabInstance:
@@ -25295,6 +25230,74 @@ Transform:
   m_Father: {fileID: 2083826384}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &982787427
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 982787429}
+  - component: {fileID: 982787428}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &982787428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 982787427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0937f00774658ca438f9895a67484922, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jump: {fileID: 8300000, guid: 678ae31fcb503ca49983d40b451b95cc, type: 3}
+  run: {fileID: 8300000, guid: 7f6daf75cf768924e9f5faf0a139cbac, type: 3}
+  attack: {fileID: 8300000, guid: ebd12e134e0f2d24e8d606549a4accab, type: 3}
+  points: {fileID: 8300000, guid: 2d8b3e5b46563964d8c4c43288cd28e0, type: 3}
+  shootAR: {fileID: 8300000, guid: 3d0ad4d4a99832345b581832cae102a2, type: 3}
+  shootHandgun: {fileID: 8300000, guid: ffd9b2104fa62a449be92872eb54467c, type: 3}
+  shootSniper: {fileID: 8300000, guid: 2a4663caa788e784dab330f9edb0d5ae, type: 3}
+  hurt: {fileID: 8300000, guid: 17b226a85396b2d47aef2bea69a65313, type: 3}
+  dead: {fileID: 8300000, guid: fc45d8753e2b8464ba557007271518af, type: 3}
+  respawn: {fileID: 8300000, guid: 5dc9d2bcefecf41458585127dedbfcab, type: 3}
+  throwing: {fileID: 8300000, guid: c53a1d3d71a248f42873d51e1da97eb2, type: 3}
+  explosion: {fileID: 8300000, guid: 05a2f58dd09dd2c4f8ec7116f0a6e958, type: 3}
+  enemyHit: {fileID: 8300000, guid: 960b0cff35813664d850d9e4d18abe9e, type: 3}
+  health: {fileID: 8300000, guid: 28aa51f66cbf6e14a974ac0f0f64c39d, type: 3}
+  ammo: {fileID: 8300000, guid: 7c7b1ce0c7696a049acd5298c5d364c7, type: 3}
+  life: {fileID: 8300000, guid: 38c435051b86a7d41ad1e6bb18a5db86, type: 3}
+  switchWeapon: {fileID: 8300000, guid: 99b9756c7cc801d4da7e91dcb0d35a91, type: 3}
+  bossHit: {fileID: 8300000, guid: 379fb9a84229e1843a9a042e5a583c29, type: 3}
+  bossDamage: {fileID: 8300000, guid: ee7e81b17dc42114abd0467658c253ee, type: 3}
+  win: {fileID: 8300000, guid: 3e8e837a251139849b301ded4d063a5a, type: 3}
+  generalAttack: {fileID: 8300000, guid: 46e0a772213d0c9478c74d2c815b2e46, type: 3}
+  generalHurt: {fileID: 8300000, guid: d9f88518305fb0942ac423b49919beb5, type: 3}
+  generalDead: {fileID: 8300000, guid: 1d8772aba58768144a6c91fca9fa987a, type: 3}
+  music: {fileID: 8300000, guid: 3479a0cc9f87fdf4aa5ce2b83427eec5, type: 3}
+  soundObject: {fileID: 4079872877276035122, guid: 3e983b404fe68ab48aa22e45f0b5a643, type: 3}
+--- !u!4 &982787429
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 982787427}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &994363405
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31756,7 +31759,7 @@ MonoBehaviour:
   - {fileID: 1861600595}
   speed: 10
   bossName: North Star AH-68
-  bossHealth: 45
+  bossHealth: 30
   Explosion: {fileID: 8637432563442968295, guid: 6249dc5f01a657d4c96e685f7bc42023, type: 3}
   flashColor: {r: 1, g: 0.3019608, b: 0, a: 1}
   regularColor: {r: 1, g: 1, b: 1, a: 1}

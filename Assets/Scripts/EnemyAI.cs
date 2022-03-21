@@ -21,6 +21,7 @@ public class EnemyAI : MonoBehaviour
     void Start()
     {
         anim = GetComponent<Animator>();
+        isDead = false;
     }
 
     private void Reset()

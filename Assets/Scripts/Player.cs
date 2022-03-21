@@ -54,6 +54,7 @@ public class Player : MonoBehaviour
     {
         availableJumps = totalJumps;
         isInvincible = false;
+        isHurt = false;
 
         rb2d = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
@@ -63,34 +64,37 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (transform.position.y <= fallBoundary)
+        if (!PauseMenu.isPause)
         {
-            FindObjectOfType<Healthbar>().LoseHealth(999999);
-        }
+            if (transform.position.y <= fallBoundary)
+            {
+                FindObjectOfType<Healthbar>().LoseHealth(999999);
+            }
 
-        if (!canMove() || BossVehicle.isDead)
-        {
-            return;
-        }
-        //Set yVelocity in animator
-        animator.SetFloat("yVelocity", rb2d.velocity.y);
-        //store horizontal value
-        horizontalValue = Input.GetAxisRaw("Horizontal");
+            if (!canMove() || BossVehicle.isDead || FinalBoss.isDead)
+            {
+                return;
+            }
+            //Set yVelocity in animator
+            animator.SetFloat("yVelocity", rb2d.velocity.y);
+            //store horizontal value
+            horizontalValue = Input.GetAxisRaw("Horizontal");
 
-        //if shift keys are pressed down, running is true
-        if(Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKeyDown(KeyCode.LeftShift))
-        {
-            isRunning = true;
-        }
-        if(Input.GetKeyUp(KeyCode.LeftShift) || Input.GetKeyUp(KeyCode.LeftShift)) //running is flase if shift keys are released
-        {
-            isRunning = false;
-        }
+            //if shift keys are pressed down, running is true
+            if (Input.GetButtonDown("Fire3"))
+            {
+                isRunning = true;
+            }
+            if (Input.GetButtonUp("Fire3")) //running is flase if shift keys are released
+            {
+                isRunning = false;
+            }
 
-        //if pressed jump, enable jump
-        if (Input.GetButtonDown("Jump"))
-        {
-            Jump();
+            //if pressed jump, enable jump
+            if (Input.GetButtonDown("Jump"))
+            {
+                Jump();
+            }
         }
         
     }
@@ -114,7 +118,7 @@ public class Player : MonoBehaviour
     bool canMove()
     {
         bool can = true;
-        if (isDead || BossVehicle.isDead)
+        if (isDead || BossVehicle.isDead || FinalBoss.isDead)
         {
             isRunning = false;
             can = false;
@@ -147,6 +151,11 @@ public class Player : MonoBehaviour
                 if(c.tag == "MovingPlatform")
                 {
                     transform.parent = c.transform;
+                }
+                else
+                {
+                    //Un-parent the transform
+                    transform.parent = null;
                 }
             }
         }
@@ -218,7 +227,7 @@ public class Player : MonoBehaviour
         {
             xVal *= runSpeedModifier;
         }
-        else if (BossVehicle.isDead)
+        else if (BossVehicle.isDead || FinalBoss.isDead)
         {
             xVal = 0;
         }
@@ -277,7 +286,7 @@ public class Player : MonoBehaviour
         if (!isInvincible && !isDead && !ShootingOrAttack.isAttack && !EnemyAI.isDead && !EnemyShoot.isDead && !Sniper.isDead)
         {
             //if player collides with enemy
-            if (collision.tag == "Enemy" || collision.tag == "Spikes")
+            if (collision.tag == "Enemy" || collision.tag == "Spikes" || collision.tag == "Boss")
             {
                 isHurt = true;
                 StartCoroutine(InvincibilityFlash());

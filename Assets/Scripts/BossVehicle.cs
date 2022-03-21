@@ -133,19 +133,19 @@ public class BossVehicle : MonoBehaviour
                     if (SwitchWeapons.shuriken)
                     {
                         StartCoroutine(InvincibilityFlash());
-                        FindObjectOfType<BossHealthBar>().LoseHealth(2);
+                        FindObjectOfType<BossHealthBar>().LoseHealth(1);
                         AudioManager.instance.PlaySFX("bossDamage");
                     }
                     else if (SwitchWeapons.handgun)
                     {
                         StartCoroutine(InvincibilityFlash());
-                        FindObjectOfType<BossHealthBar>().LoseHealth(3);
+                        FindObjectOfType<BossHealthBar>().LoseHealth(2);
                         AudioManager.instance.PlaySFX("bossDamage");
                     }
                     else if (SwitchWeapons.AR)
                     {
                         StartCoroutine(InvincibilityFlash());
-                        FindObjectOfType<BossHealthBar>().LoseHealth(5);
+                        FindObjectOfType<BossHealthBar>().LoseHealth(3);
                         AudioManager.instance.PlaySFX("bossDamage");
                     }
                 }

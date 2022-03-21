@@ -48,7 +48,7 @@ public class EnemyShoot : MonoBehaviour
         nextShot = Time.time;
         anim = GetComponent<Animator>();
         currentSpeed = maxSpeed;
-
+        isDead = false;
     }
 
     private void Reset()

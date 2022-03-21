@@ -39,6 +39,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Cutscene.unity
     guid: 5306f6de502be1a4693fd5866efd0615
   - enabled: 1
-    path: Assets/Scenes/TempScene.unity
+    path: Assets/Scenes/Credit Scene.unity
     guid: 2f7d556f4b595f5499cbe8c7a5575153
   m_configObjects: {}

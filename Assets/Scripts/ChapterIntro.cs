@@ -46,7 +46,7 @@ public class ChapterIntro : MonoBehaviour
     void Update()
     {
         StartCoroutine(canStart());
-        if(Input.GetKeyDown(KeyCode.Return) && canStartGame)
+        if(Input.GetButtonDown("Submit") && canStartGame)
         {
             selection.Play();
             canStartGame = false;

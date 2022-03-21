@@ -12,6 +12,14 @@ public class GameOverUI : MonoBehaviour
 
     private int delayEnable = 5;
 
+    private void Start()
+    {
+        //Clear selected object
+        EventSystem.current.SetSelectedGameObject(null);
+        //set a new selected object
+        EventSystem.current.SetSelectedGameObject(retryButton);
+    }
+
     void Update()
     {
         if (Player.gameOver)

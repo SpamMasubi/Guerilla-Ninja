@@ -60,14 +60,22 @@ public class turretScript : MonoBehaviour
 
             if (Detected == true)
             {
-                if (FindObjectOfType<BossVehicle>().name == "North Star Army Tank (Boss)")
+                if (FindObjectOfType<BossVehicle>() != null)
+                {
+                    if (FindObjectOfType<BossVehicle>().name == "North Star Army Tank (Boss)")
+                    {
+                        gun.transform.right = -Direction;
+                    }
+                    else
+                    {
+                        gun.transform.up = -Direction;
+                    }
+                }
+                else if (FindObjectOfType<FinalBoss>() != null)
                 {
                     gun.transform.right = -Direction;
                 }
-                else
-                {
-                    gun.transform.up = -Direction;
-                }
+
                 if (Time.time > nextTimeToFire)
                 {
                     nextTimeToFire = Time.time + 1 / FireRate;
@@ -95,6 +103,11 @@ public class turretScript : MonoBehaviour
                 {
                     ExplosionEffect();
                     isInvincible = false;
+                    if (FindObjectOfType<FinalBoss>() != null)
+                    {
+                        FindObjectOfType<FinalBoss>().GetComponent<Animator>().SetBool("isAttacking", true);
+                        AudioManager.instance.PlaySFX("GeneralAttack");
+                    }
                     Destroy(gameObject);
                 }
             }

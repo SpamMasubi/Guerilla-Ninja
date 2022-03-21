@@ -30,6 +30,10 @@ public class BossProjectiles : MonoBehaviour
             FindObjectOfType<Healthbar>().LoseHealth(damage);
             Destroy(gameObject);
         }
+        else if(collision.tag == "playerProjectiles" || collision.tag == "playerAttack")
+        {
+            Destroy(gameObject);
+        }
     }
 
 }

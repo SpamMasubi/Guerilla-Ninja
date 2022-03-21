@@ -11,25 +11,53 @@ public class BossHealthBar : MonoBehaviour
 
     void Awake()
     {
-        bossNameText.text = FindObjectOfType<BossVehicle>().bossName;
-        health = FindObjectOfType<BossVehicle>().bossHealth;
+        if (FindObjectOfType<BossVehicle>() != null)
+        {
+            bossNameText.text = FindObjectOfType<BossVehicle>().bossName;
+            health = FindObjectOfType<BossVehicle>().bossHealth;
+        }
+        if (FindObjectOfType<FinalBoss>() != null)
+        {
+            bossNameText.text = FindObjectOfType<FinalBoss>().bossName;
+            health = FindObjectOfType<FinalBoss>().bossHealth;
+        }
     }
 
     public void LoseHealth(int value)
     {
-        //Do nothing if you are out of health
-        if (FindObjectOfType<BossVehicle>().bossHealth <= 0)
+        if (FindObjectOfType<BossVehicle>() != null)
         {
-            return;
+            //Do nothing if you are out of health
+            if (FindObjectOfType<BossVehicle>().bossHealth <= 0)
+            {
+                return;
+            }
+            //Reduce the health
+            FindObjectOfType<BossVehicle>().bossHealth -= value;
+            //Refresh the UI fillbar
+            fillbar.fillAmount = FindObjectOfType<BossVehicle>().bossHealth / health;
+            //Check if your health is zero or less => Dead
+            if (FindObjectOfType<BossVehicle>().bossHealth <= 0)
+            {
+                FindObjectOfType<BossVehicle>().BossDead();
+            }
         }
-        //Reduce the health
-        FindObjectOfType<BossVehicle>().bossHealth -= value;
-        //Refresh the UI fillbar
-        fillbar.fillAmount = FindObjectOfType<BossVehicle>().bossHealth/health;
-        //Check if your health is zero or less => Dead
-        if (FindObjectOfType<BossVehicle>().bossHealth <= 0)
+        else if(FindObjectOfType<FinalBoss>() != null)
         {
-            FindObjectOfType<BossVehicle>().BossDead();
+            //Do nothing if you are out of health
+            if (FindObjectOfType<FinalBoss>().bossHealth <= 0)
+            {
+                return;
+            }
+            //Reduce the health
+            FindObjectOfType<FinalBoss>().bossHealth -= value;
+            //Refresh the UI fillbar
+            fillbar.fillAmount = FindObjectOfType<FinalBoss>().bossHealth / health;
+            //Check if your health is zero or less => Dead
+            if (FindObjectOfType<FinalBoss>().bossHealth <= 0)
+            {
+                FindObjectOfType<FinalBoss>().BossDead();
+            }
         }
     }
 }

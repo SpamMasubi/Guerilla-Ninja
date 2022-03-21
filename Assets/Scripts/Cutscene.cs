@@ -7,9 +7,11 @@ public class Cutscene : MonoBehaviour
 {
     public GameObject[] cutsceneImage;
     public Text[] cutsceneTexts;
+    public AudioClip lastCutscene;
 
     void Start()
     {
+
         switch (ChapterIntro.chapters)
         {
             case 3:
@@ -33,6 +35,8 @@ public class Cutscene : MonoBehaviour
                 "one document has him changing his vengeful goals to something else.";
                 break;
             case 5:
+                GetComponent<AudioSource>().clip = lastCutscene;
+                GetComponent<AudioSource>().Play();
                 cutsceneImage[2].SetActive(false);
                 cutsceneImage[3].SetActive(true);
                 cutsceneTexts[0].text = "After reading the dossier and documents, the Guerilla Ninja learns that the North Star Army were" +
@@ -40,7 +44,9 @@ public class Cutscene : MonoBehaviour
                 cutsceneTexts[1].text = "He felt that he had finally avenge his fallen brethren and master, yet he isn't at peace with it." +
                 "The war may be over, but a new threat has risen. As Saigon fell, he escaped the country.";
                 cutsceneTexts[2].text = "The dossier was in UN's custody and made the North Star Army their #1 concern. With new threats " +
-                "looms over the Cold War, the Guerilla Ninja continues to train his Ninjutsu while coping with his nightmare.";
+                "loom over the Cold War, the Guerilla Ninja continues to train his Ninjutsu while coping with his nightmare.";
+                ChapterIntro.chapters = 1;
+                Destroy(FindObjectOfType<GameManager>());
                 break;
             default:
                 break;

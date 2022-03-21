@@ -38,6 +38,7 @@ public class Sniper : MonoBehaviour
         nextShot = Time.time;
         anim = GetComponent<Animator>();
         lastTargetPosition = player.position;
+        isDead = false;
     }
 
     // Update is called once per frame

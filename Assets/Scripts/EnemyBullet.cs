@@ -19,13 +19,31 @@ public class EnemyBullet : MonoBehaviour
             scale.x *= -1;
             transform.localScale = scale;
         }
+        /*
+        else if(FindObjectOfType<FinalBoss>() != null)
+        {
+            if (direction == 1)
+            {
+                Vector3 scale = transform.localScale;
+                scale.x *= -1;
+                transform.localScale = scale;
+            }
+        }
+        */
     }
 
     void FixedUpdate()
     {
         if (BossStart.startBoss)
         {
-            rb2d.velocity = new Vector3(-speed, 0, 0);
+            if (FindObjectOfType<FinalBoss>() != null)
+            {
+                rb2d.velocity = new Vector3(speed * direction, 0, 0);
+            }
+            else
+            {
+                rb2d.velocity = new Vector3(-speed, 0, 0);
+            }
         }
         else
         {
@@ -46,6 +64,10 @@ public class EnemyBullet : MonoBehaviour
             {
                 FindObjectOfType<Healthbar>().LoseHealth(damage);
             }
+            Destroy(gameObject);
+        }
+        else if(collision.tag == "playerProjectiles" || collision.tag == "playerAttack")
+        {
             Destroy(gameObject);
         }
     }
