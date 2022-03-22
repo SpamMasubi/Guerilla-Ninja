@@ -1,6 +1,8 @@
 # Guerilla-Ninja
  Unity 2D Platformer for PC (This is a solo project)
 
+Full Game to play on browser: https://masubi97.itch.io/guerilla-ninja
+
 Full Game for Mac and Windows Download Link: https://drive.google.com/drive/folders/1wv0xo1BxXw-t9Av6ZrRnGHyuBQGYQx7I?usp=sharing
 
 Tutorial used to prototype the game: https://youtube.com/playlist?list=PLjAb99vXJuCRD04EUp8p2az1ILZbq_ZfY
