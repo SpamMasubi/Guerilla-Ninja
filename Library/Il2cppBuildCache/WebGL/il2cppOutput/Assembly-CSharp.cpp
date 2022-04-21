@@ -11672,36 +11672,36 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChapterIntro_LoadScene_m10F787AB44F2EA4D
 
 IL_001f:
 	{
-		// SceneManager.LoadScene(2);
+		// SceneManager.LoadScene(3);
 		IL2CPP_RUNTIME_CLASS_INIT(SceneManager_tEC9D10ECC0377F8AE5AEEB5A789FFD24364440FA_il2cpp_TypeInfo_var);
-		SceneManager_LoadScene_m5550E6368A6D0E37DACEDA3C5E4BA331836BC3C5(2, /*hidden argument*/NULL);
+		SceneManager_LoadScene_m5550E6368A6D0E37DACEDA3C5E4BA331836BC3C5(3, /*hidden argument*/NULL);
 		// break;
 		return;
 	}
 
 IL_0026:
 	{
-		// SceneManager.LoadScene(4);
+		// SceneManager.LoadScene(5);
 		IL2CPP_RUNTIME_CLASS_INIT(SceneManager_tEC9D10ECC0377F8AE5AEEB5A789FFD24364440FA_il2cpp_TypeInfo_var);
-		SceneManager_LoadScene_m5550E6368A6D0E37DACEDA3C5E4BA331836BC3C5(4, /*hidden argument*/NULL);
+		SceneManager_LoadScene_m5550E6368A6D0E37DACEDA3C5E4BA331836BC3C5(5, /*hidden argument*/NULL);
 		// break;
 		return;
 	}
 
 IL_002d:
 	{
-		// SceneManager.LoadScene(6);
+		// SceneManager.LoadScene(7);
 		IL2CPP_RUNTIME_CLASS_INIT(SceneManager_tEC9D10ECC0377F8AE5AEEB5A789FFD24364440FA_il2cpp_TypeInfo_var);
-		SceneManager_LoadScene_m5550E6368A6D0E37DACEDA3C5E4BA331836BC3C5(6, /*hidden argument*/NULL);
+		SceneManager_LoadScene_m5550E6368A6D0E37DACEDA3C5E4BA331836BC3C5(7, /*hidden argument*/NULL);
 		// break;
 		return;
 	}
 
 IL_0034:
 	{
-		// SceneManager.LoadScene(8);
+		// SceneManager.LoadScene(9);
 		IL2CPP_RUNTIME_CLASS_INIT(SceneManager_tEC9D10ECC0377F8AE5AEEB5A789FFD24364440FA_il2cpp_TypeInfo_var);
-		SceneManager_LoadScene_m5550E6368A6D0E37DACEDA3C5E4BA331836BC3C5(8, /*hidden argument*/NULL);
+		SceneManager_LoadScene_m5550E6368A6D0E37DACEDA3C5E4BA331836BC3C5(((int32_t)9), /*hidden argument*/NULL);
 		// }
 		return;
 	}

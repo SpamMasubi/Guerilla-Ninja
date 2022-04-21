@@ -1,1 +1,3 @@
 {"msg":"init","dagFile":"artifacts\\tundra.dag","targets":[]}
+{"msg":"nodeRetryBuild","annotation":"Il2Cpp E:/My Games/Unity Projects/Guerilla Ninja/Library/Il2cppBuildCache/WebGL/Native/build.bc","index":2}
+{"msg":"noderesult","annotation":"Il2Cpp E:/My Games/Unity Projects/Guerilla Ninja/Library/Il2cppBuildCache/WebGL/Native/build.bc","index":2,"exitcode":0}

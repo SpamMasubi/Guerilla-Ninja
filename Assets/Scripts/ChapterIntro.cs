@@ -66,16 +66,16 @@ public class ChapterIntro : MonoBehaviour
         switch (chapters)
         {
             case 1:   
-                SceneManager.LoadScene(2);
+                SceneManager.LoadScene(3);
                 break;
             case 2:
-                SceneManager.LoadScene(4);
+                SceneManager.LoadScene(5);
                 break;
             case 3:
-                SceneManager.LoadScene(6);
+                SceneManager.LoadScene(7);
                 break;
             case 4:
-                SceneManager.LoadScene(8);
+                SceneManager.LoadScene(9);
                 break;
             default:
                 break;
