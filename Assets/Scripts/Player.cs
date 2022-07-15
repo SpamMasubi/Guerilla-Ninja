@@ -13,6 +13,7 @@ public class Player : MonoBehaviour
     const float groundCheckRadius = 0.2f;
     float horizontalValue; //horizontal values
     float runSpeedModifier = 2f; //speed modifier for running
+    float runValue;
 
     int availableJumps; //how many jumps left
 
@@ -79,13 +80,14 @@ public class Player : MonoBehaviour
             animator.SetFloat("yVelocity", rb2d.velocity.y);
             //store horizontal value
             horizontalValue = Input.GetAxisRaw("Horizontal");
+            runValue = Input.GetAxisRaw("Fire3");
 
             //if shift keys are pressed down, running is true
-            if (Input.GetButtonDown("Fire3"))
+            if (runValue > 0)
             {
                 isRunning = true;
             }
-            if (Input.GetButtonUp("Fire3")) //running is flase if shift keys are released
+            if (runValue <= 0) //running is flase if shift keys are released
             {
                 isRunning = false;
             }
